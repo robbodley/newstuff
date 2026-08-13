@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "3ad6abc",
+      "id": "3ad97f4",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -17,7 +17,7 @@
       },
       "elements": [
         {
-          "id": "41973f9",
+          "id": "82f7100",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -25,7 +25,7 @@
           },
           "elements": [
             {
-              "id": "deab1db",
+              "id": "16f0873",
               "elType": "column",
               "settings": {
                 "_column_size": 100,
@@ -33,7 +33,7 @@
               },
               "elements": [
                 {
-                  "id": "8620759",
+                  "id": "508e9b3",
                   "elType": "widget",
                   "settings": {
                     "title": "What I Make",
@@ -59,7 +59,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f027e37",
+                  "id": "e05fd55",
                   "elType": "widget",
                   "settings": {
                     "space": {
@@ -72,7 +72,7 @@
                   "widgetType": "spacer"
                 },
                 {
-                  "id": "e3119c4",
+                  "id": "badee46",
                   "elType": "widget",
                   "settings": {
                     "title": "Ways to bring the work home",
@@ -105,7 +105,7 @@
               "isInner": false
             },
             {
-              "id": "068b997",
+              "id": "70cb974",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -118,14 +118,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "d622b4c",
+              "id": "063b780",
               "elType": "section",
               "settings": {
                 "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "85d64c5",
+                  "id": "4ffa15f",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -133,7 +133,7 @@
                   },
                   "elements": [
                     {
-                      "id": "dd7dbf4",
+                      "id": "56bae57",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -175,7 +175,7 @@
                       },
                       "elements": [
                         {
-                          "id": "3096840",
+                          "id": "543958c",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -183,7 +183,7 @@
                           },
                           "elements": [
                             {
-                              "id": "1852cd0",
+                              "id": "af6ec2b",
                               "elType": "widget",
                               "settings": {
                                 "selected_icon": {
@@ -202,7 +202,7 @@
                               "widgetType": "icon"
                             },
                             {
-                              "id": "532076e",
+                              "id": "8759b64",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -215,7 +215,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "a27b053",
+                              "id": "df7cd0b",
                               "elType": "widget",
                               "settings": {
                                 "title": "Original Paintings",
@@ -245,7 +245,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "0ea4fbe",
+                              "id": "f4f7368",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -258,7 +258,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "9b8d60e",
+                              "id": "9468b29",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>One-of-a-kind canvases in acrylic and mixed media. Signed, certified and ready to hang.</p>",
@@ -282,7 +282,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "727a1e7",
+                              "id": "ed408df",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -295,7 +295,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "ec2ce75",
+                              "id": "096c886",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
@@ -328,7 +328,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "ab3276d",
+                  "id": "f59a6d9",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -336,7 +336,7 @@
                   },
                   "elements": [
                     {
-                      "id": "d964b4f",
+                      "id": "ee8b6aa",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -378,7 +378,7 @@
                       },
                       "elements": [
                         {
-                          "id": "7fcd077",
+                          "id": "33a00ce",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -386,7 +386,7 @@
                           },
                           "elements": [
                             {
-                              "id": "6d31bdb",
+                              "id": "1e0bb98",
                               "elType": "widget",
                               "settings": {
                                 "selected_icon": {
@@ -405,7 +405,7 @@
                               "widgetType": "icon"
                             },
                             {
-                              "id": "5a00afd",
+                              "id": "b25d370",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -418,7 +418,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "31fdc71",
+                              "id": "f937598",
                               "elType": "widget",
                               "settings": {
                                 "title": "Prints &amp; Editions",
@@ -448,7 +448,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "5b8b568",
+                              "id": "dfc2b9f",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -461,7 +461,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "4f7981a",
+                              "id": "1d34f06",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Museum-quality gicl\u00e9e prints in limited runs, hand-numbered and archival.</p>",
@@ -485,7 +485,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "c6c7da5",
+                              "id": "8d8e6d6",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -498,7 +498,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "fca5293",
+                              "id": "4dbca13",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
@@ -531,7 +531,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "944f304",
+                  "id": "a32e731",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -539,7 +539,7 @@
                   },
                   "elements": [
                     {
-                      "id": "ce64e0f",
+                      "id": "d150f4d",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -581,7 +581,7 @@
                       },
                       "elements": [
                         {
-                          "id": "6548bb2",
+                          "id": "3ec65d7",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -589,7 +589,7 @@
                           },
                           "elements": [
                             {
-                              "id": "13d9d33",
+                              "id": "9c03080",
                               "elType": "widget",
                               "settings": {
                                 "selected_icon": {
@@ -608,7 +608,7 @@
                               "widgetType": "icon"
                             },
                             {
-                              "id": "74ce157",
+                              "id": "60f069b",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -621,7 +621,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "c724894",
+                              "id": "badd3c1",
                               "elType": "widget",
                               "settings": {
                                 "title": "Commissions",
@@ -651,7 +651,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "406248a",
+                              "id": "ddf5aa0",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -664,7 +664,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "d52092e",
+                              "id": "0b2cfbc",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Custom pieces made with you \u2014 from palette to scale. Let's create something personal.</p>",
@@ -688,7 +688,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "7f077cd",
+                              "id": "23f79ae",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -701,7 +701,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "4357d00",
+                              "id": "d3be58e",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",

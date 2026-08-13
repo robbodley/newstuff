@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "622f58c",
+      "id": "b7aff21",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
@@ -15,470 +15,6 @@
         },
         "padding": {
           "unit": "px",
-          "top": "150",
-          "right": "0",
-          "bottom": "150",
-          "left": "0",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "ecbe850",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "_inline_size": null
-          },
-          "elements": [
-            {
-              "id": "f2061da",
-              "elType": "widget",
-              "settings": {
-                "title": "Contemporary Artist",
-                "header_size": "h6",
-                "align": "center",
-                "title_color": "rgba(255,255,255,0.85)",
-                "typography_typography": "custom",
-                "typography_font_family": "Poppins",
-                "typography_font_weight": "700",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13,
-                  "sizes": []
-                },
-                "typography_text_transform": "uppercase",
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": 2,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "e450216",
-              "elType": "widget",
-              "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "06cc24b",
-              "elType": "widget",
-              "settings": {
-                "title": "Whatshername",
-                "header_size": "h1",
-                "align": "center",
-                "title_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_family": "Poppins",
-                "typography_font_weight": "800",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 84,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.02,
-                  "sizes": []
-                },
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": -2,
-                  "sizes": []
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 52,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "65b51b5",
-              "elType": "widget",
-              "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "f76b960",
-              "elType": "widget",
-              "settings": {
-                "editor": "<p>Bold, colour-drenched paintings and prints exploring identity, motion and the noise of modern life.</p>",
-                "align": "center",
-                "text_color": "rgba(255,255,255,0.9)",
-                "typography_typography": "custom",
-                "typography_font_family": "Poppins",
-                "typography_font_weight": "400",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 20,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "text-editor"
-            },
-            {
-              "id": "cff6da9",
-              "elType": "widget",
-              "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 32,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "2cee4c3",
-              "elType": "widget",
-              "settings": {
-                "text": "View the Gallery",
-                "align": "center",
-                "link": {
-                  "url": "#gallery",
-                  "is_external": "",
-                  "nofollow": ""
-                },
-                "border_radius": {
-                  "unit": "px",
-                  "top": "50",
-                  "right": "50",
-                  "bottom": "50",
-                  "left": "50",
-                  "isLinked": true
-                },
-                "text_padding": {
-                  "unit": "px",
-                  "top": "17",
-                  "right": "40",
-                  "bottom": "17",
-                  "left": "40",
-                  "isLinked": false
-                },
-                "button_text_color": "#9C1AE6",
-                "typography_typography": "custom",
-                "typography_font_family": "Poppins",
-                "typography_font_weight": "600",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 15,
-                  "sizes": []
-                },
-                "typography_text_transform": "uppercase",
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": 0.5,
-                  "sizes": []
-                },
-                "background_color": "#FFFFFF"
-              },
-              "elements": [],
-              "widgetType": "button"
-            }
-          ],
-          "isInner": false
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "a835801",
-      "elType": "section",
-      "settings": {
-        "background_background": "classic",
-        "background_color": "#FFFFFF",
-        "padding": {
-          "unit": "px",
-          "top": "100",
-          "right": "0",
-          "bottom": "90",
-          "left": "0",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "cd2fe58",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "_inline_size": null
-          },
-          "elements": [
-            {
-              "id": "705a81b",
-              "elType": "column",
-              "settings": {
-                "_column_size": 100,
-                "_inline_size": null
-              },
-              "elements": [
-                {
-                  "id": "32098fb",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "Recent Work",
-                    "header_size": "h6",
-                    "align": "center",
-                    "title_color": "#F5179E",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
-                    "typography_font_weight": "700",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_text_transform": "uppercase",
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "d881335",
-                  "elType": "widget",
-                  "settings": {
-                    "space": {
-                      "unit": "px",
-                      "size": 12,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "spacer"
-                },
-                {
-                  "id": "9886da1",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New paintings &amp; drops",
-                    "header_size": "h2",
-                    "align": "center",
-                    "title_color": "#26263A",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
-                    "typography_font_weight": "700",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 44,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.15,
-                      "sizes": []
-                    },
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": -0.5,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                }
-              ],
-              "isInner": false
-            },
-            {
-              "id": "2462685",
-              "elType": "widget",
-              "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 46,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "edb4a34",
-              "elType": "section",
-              "settings": {
-                "gap": "extended"
-              },
-              "elements": [
-                {
-                  "id": "4eca87d",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "_inline_size": null
-                  },
-                  "elements": [
-                    {
-                      "id": "cc56b55",
-                      "elType": "widget",
-                      "settings": {
-                        "image": {
-                          "url": "https://via.placeholder.com/640x760/9C1AE6/ffffff?text=Painting",
-                          "id": ""
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "16",
-                          "right": "16",
-                          "bottom": "16",
-                          "left": "16",
-                          "isLinked": true
-                        },
-                        "image_size": "full"
-                      },
-                      "elements": [],
-                      "widgetType": "image"
-                    }
-                  ],
-                  "isInner": false
-                },
-                {
-                  "id": "8e327c2",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "_inline_size": null
-                  },
-                  "elements": [
-                    {
-                      "id": "bc53759",
-                      "elType": "widget",
-                      "settings": {
-                        "image": {
-                          "url": "https://via.placeholder.com/640x760/12D8E8/ffffff?text=Series",
-                          "id": ""
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "16",
-                          "right": "16",
-                          "bottom": "16",
-                          "left": "16",
-                          "isLinked": true
-                        },
-                        "image_size": "full"
-                      },
-                      "elements": [],
-                      "widgetType": "image"
-                    },
-                    {
-                      "id": "b5a742e",
-                      "elType": "widget",
-                      "settings": {
-                        "space": {
-                          "unit": "px",
-                          "size": 24,
-                          "sizes": []
-                        }
-                      },
-                      "elements": [],
-                      "widgetType": "spacer"
-                    },
-                    {
-                      "id": "bc24ed4",
-                      "elType": "widget",
-                      "settings": {
-                        "image": {
-                          "url": "https://via.placeholder.com/640x480/F6E400/ffffff?text=Study",
-                          "id": ""
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "16",
-                          "right": "16",
-                          "bottom": "16",
-                          "left": "16",
-                          "isLinked": true
-                        },
-                        "image_size": "full"
-                      },
-                      "elements": [],
-                      "widgetType": "image"
-                    }
-                  ],
-                  "isInner": false
-                },
-                {
-                  "id": "1bfb70f",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "_inline_size": null
-                  },
-                  "elements": [
-                    {
-                      "id": "c1b33fa",
-                      "elType": "widget",
-                      "settings": {
-                        "image": {
-                          "url": "https://via.placeholder.com/640x760/F5179E/ffffff?text=Print",
-                          "id": ""
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "16",
-                          "right": "16",
-                          "bottom": "16",
-                          "left": "16",
-                          "isLinked": true
-                        },
-                        "image_size": "full"
-                      },
-                      "elements": [],
-                      "widgetType": "image"
-                    }
-                  ],
-                  "isInner": false
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": false
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "74fb645",
-      "elType": "section",
-      "settings": {
-        "background_background": "classic",
-        "background_color": "#F7F7FB",
-        "padding": {
-          "unit": "px",
           "top": "100",
           "right": "0",
           "bottom": "100",
@@ -488,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "6d2ad89",
+          "id": "26030cb",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -496,762 +32,12 @@
           },
           "elements": [
             {
-              "id": "f59cb9a",
-              "elType": "column",
-              "settings": {
-                "_column_size": 100,
-                "_inline_size": null
-              },
-              "elements": [
-                {
-                  "id": "932acd6",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "What I Make",
-                    "header_size": "h6",
-                    "align": "center",
-                    "title_color": "#F5179E",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
-                    "typography_font_weight": "700",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_text_transform": "uppercase",
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "600e9ca",
-                  "elType": "widget",
-                  "settings": {
-                    "space": {
-                      "unit": "px",
-                      "size": 12,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "spacer"
-                },
-                {
-                  "id": "260daed",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "Ways to bring the work home",
-                    "header_size": "h2",
-                    "align": "center",
-                    "title_color": "#26263A",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
-                    "typography_font_weight": "700",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 44,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.15,
-                      "sizes": []
-                    },
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": -0.5,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                }
-              ],
-              "isInner": false
-            },
-            {
-              "id": "c5b4d05",
+              "id": "978632a",
               "elType": "widget",
               "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 46,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "3bf3b25",
-              "elType": "section",
-              "settings": {
-                "gap": "extended"
-              },
-              "elements": [
-                {
-                  "id": "c9b6c5f",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "_inline_size": null
-                  },
-                  "elements": [
-                    {
-                      "id": "bc52efc",
-                      "elType": "section",
-                      "settings": {
-                        "background_background": "classic",
-                        "background_color": "#FFFFFF",
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "18",
-                          "bottom": "18",
-                          "left": "18",
-                          "isLinked": true
-                        },
-                        "padding": {
-                          "unit": "px",
-                          "top": "36",
-                          "right": "36",
-                          "bottom": "36",
-                          "left": "36",
-                          "isLinked": true
-                        },
-                        "box_shadow_box_shadow_type": "yes",
-                        "box_shadow_box_shadow": {
-                          "horizontal": 0,
-                          "vertical": 18,
-                          "blur": 50,
-                          "spread": 0,
-                          "color": "rgba(38,38,58,0.08)"
-                        },
-                        "border_border": "solid",
-                        "border_width": {
-                          "unit": "px",
-                          "top": "1",
-                          "right": "1",
-                          "bottom": "1",
-                          "left": "1",
-                          "isLinked": true
-                        },
-                        "border_color": "#ECECF3"
-                      },
-                      "elements": [
-                        {
-                          "id": "ebd39ed",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 100,
-                            "_inline_size": null
-                          },
-                          "elements": [
-                            {
-                              "id": "36c88c0",
-                              "elType": "widget",
-                              "settings": {
-                                "selected_icon": {
-                                  "value": "fas fa-palette",
-                                  "library": "fa-solid"
-                                },
-                                "primary_color": "#9C1AE6",
-                                "size": {
-                                  "unit": "px",
-                                  "size": 30,
-                                  "sizes": []
-                                },
-                                "align": "left"
-                              },
-                              "elements": [],
-                              "widgetType": "icon"
-                            },
-                            {
-                              "id": "541991d",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 18,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "555e75d",
-                              "elType": "widget",
-                              "settings": {
-                                "title": "Original Paintings",
-                                "header_size": "h4",
-                                "align": "left",
-                                "title_color": "#26263A",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "700",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 24,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.3,
-                                  "sizes": []
-                                },
-                                "typography_letter_spacing": {
-                                  "unit": "px",
-                                  "size": -0.3,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "heading"
-                            },
-                            {
-                              "id": "b2bd16f",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 10,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "5b64618",
-                              "elType": "widget",
-                              "settings": {
-                                "editor": "<p>One-of-a-kind canvases in acrylic and mixed media. Signed, certified and ready to hang.</p>",
-                                "align": "left",
-                                "text_color": "#6E6E80",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "400",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 16,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.75,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "text-editor"
-                            },
-                            {
-                              "id": "436edca",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 14,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "b4c5101",
-                              "elType": "widget",
-                              "settings": {
-                                "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
-                                "align": "left",
-                                "text_color": "#9C1AE6",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "400",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 15,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.8,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "text-editor"
-                            }
-                          ],
-                          "isInner": false
-                        }
-                      ],
-                      "isInner": true
-                    }
-                  ],
-                  "isInner": false
-                },
-                {
-                  "id": "243f5b8",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "_inline_size": null
-                  },
-                  "elements": [
-                    {
-                      "id": "adfde2f",
-                      "elType": "section",
-                      "settings": {
-                        "background_background": "classic",
-                        "background_color": "#FFFFFF",
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "18",
-                          "bottom": "18",
-                          "left": "18",
-                          "isLinked": true
-                        },
-                        "padding": {
-                          "unit": "px",
-                          "top": "36",
-                          "right": "36",
-                          "bottom": "36",
-                          "left": "36",
-                          "isLinked": true
-                        },
-                        "box_shadow_box_shadow_type": "yes",
-                        "box_shadow_box_shadow": {
-                          "horizontal": 0,
-                          "vertical": 18,
-                          "blur": 50,
-                          "spread": 0,
-                          "color": "rgba(38,38,58,0.08)"
-                        },
-                        "border_border": "solid",
-                        "border_width": {
-                          "unit": "px",
-                          "top": "1",
-                          "right": "1",
-                          "bottom": "1",
-                          "left": "1",
-                          "isLinked": true
-                        },
-                        "border_color": "#ECECF3"
-                      },
-                      "elements": [
-                        {
-                          "id": "98fb007",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 100,
-                            "_inline_size": null
-                          },
-                          "elements": [
-                            {
-                              "id": "14c0268",
-                              "elType": "widget",
-                              "settings": {
-                                "selected_icon": {
-                                  "value": "fas fa-layer-group",
-                                  "library": "fa-solid"
-                                },
-                                "primary_color": "#F5179E",
-                                "size": {
-                                  "unit": "px",
-                                  "size": 30,
-                                  "sizes": []
-                                },
-                                "align": "left"
-                              },
-                              "elements": [],
-                              "widgetType": "icon"
-                            },
-                            {
-                              "id": "a03e949",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 18,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "8e7c346",
-                              "elType": "widget",
-                              "settings": {
-                                "title": "Prints &amp; Editions",
-                                "header_size": "h4",
-                                "align": "left",
-                                "title_color": "#26263A",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "700",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 24,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.3,
-                                  "sizes": []
-                                },
-                                "typography_letter_spacing": {
-                                  "unit": "px",
-                                  "size": -0.3,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "heading"
-                            },
-                            {
-                              "id": "e510423",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 10,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "1030ed5",
-                              "elType": "widget",
-                              "settings": {
-                                "editor": "<p>Museum-quality gicl\u00e9e prints in limited runs, hand-numbered and archival.</p>",
-                                "align": "left",
-                                "text_color": "#6E6E80",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "400",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 16,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.75,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "text-editor"
-                            },
-                            {
-                              "id": "7d81d96",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 14,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "b481c73",
-                              "elType": "widget",
-                              "settings": {
-                                "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
-                                "align": "left",
-                                "text_color": "#9C1AE6",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "400",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 15,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.8,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "text-editor"
-                            }
-                          ],
-                          "isInner": false
-                        }
-                      ],
-                      "isInner": true
-                    }
-                  ],
-                  "isInner": false
-                },
-                {
-                  "id": "ecf56cc",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "_inline_size": null
-                  },
-                  "elements": [
-                    {
-                      "id": "72b08ea",
-                      "elType": "section",
-                      "settings": {
-                        "background_background": "classic",
-                        "background_color": "#FFFFFF",
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "18",
-                          "bottom": "18",
-                          "left": "18",
-                          "isLinked": true
-                        },
-                        "padding": {
-                          "unit": "px",
-                          "top": "36",
-                          "right": "36",
-                          "bottom": "36",
-                          "left": "36",
-                          "isLinked": true
-                        },
-                        "box_shadow_box_shadow_type": "yes",
-                        "box_shadow_box_shadow": {
-                          "horizontal": 0,
-                          "vertical": 18,
-                          "blur": 50,
-                          "spread": 0,
-                          "color": "rgba(38,38,58,0.08)"
-                        },
-                        "border_border": "solid",
-                        "border_width": {
-                          "unit": "px",
-                          "top": "1",
-                          "right": "1",
-                          "bottom": "1",
-                          "left": "1",
-                          "isLinked": true
-                        },
-                        "border_color": "#ECECF3"
-                      },
-                      "elements": [
-                        {
-                          "id": "4cc9471",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 100,
-                            "_inline_size": null
-                          },
-                          "elements": [
-                            {
-                              "id": "6e62d05",
-                              "elType": "widget",
-                              "settings": {
-                                "selected_icon": {
-                                  "value": "fas fa-wand-magic-sparkles",
-                                  "library": "fa-solid"
-                                },
-                                "primary_color": "#12D8E8",
-                                "size": {
-                                  "unit": "px",
-                                  "size": 30,
-                                  "sizes": []
-                                },
-                                "align": "left"
-                              },
-                              "elements": [],
-                              "widgetType": "icon"
-                            },
-                            {
-                              "id": "14bd667",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 18,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "662ae17",
-                              "elType": "widget",
-                              "settings": {
-                                "title": "Commissions",
-                                "header_size": "h4",
-                                "align": "left",
-                                "title_color": "#26263A",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "700",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 24,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.3,
-                                  "sizes": []
-                                },
-                                "typography_letter_spacing": {
-                                  "unit": "px",
-                                  "size": -0.3,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "heading"
-                            },
-                            {
-                              "id": "cbe308c",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 10,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "92b3cf7",
-                              "elType": "widget",
-                              "settings": {
-                                "editor": "<p>Custom pieces made with you \u2014 from palette to scale. Let's create something personal.</p>",
-                                "align": "left",
-                                "text_color": "#6E6E80",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "400",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 16,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.75,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "text-editor"
-                            },
-                            {
-                              "id": "ebbd8e7",
-                              "elType": "widget",
-                              "settings": {
-                                "space": {
-                                  "unit": "px",
-                                  "size": 14,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "spacer"
-                            },
-                            {
-                              "id": "16b9061",
-                              "elType": "widget",
-                              "settings": {
-                                "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
-                                "align": "left",
-                                "text_color": "#9C1AE6",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
-                                "typography_font_weight": "400",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 15,
-                                  "sizes": []
-                                },
-                                "typography_line_height": {
-                                  "unit": "em",
-                                  "size": 1.8,
-                                  "sizes": []
-                                }
-                              },
-                              "elements": [],
-                              "widgetType": "text-editor"
-                            }
-                          ],
-                          "isInner": false
-                        }
-                      ],
-                      "isInner": true
-                    }
-                  ],
-                  "isInner": false
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": false
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "3eedbd4",
-      "elType": "section",
-      "settings": {
-        "background_background": "gradient",
-        "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
-        "background_gradient_type": "linear",
-        "background_gradient_angle": {
-          "unit": "deg",
-          "size": 120,
-          "sizes": []
-        },
-        "padding": {
-          "unit": "px",
-          "top": "90",
-          "right": "0",
-          "bottom": "90",
-          "left": "0",
-          "isLinked": false
-        },
-        "gap": "wider"
-      },
-      "elements": [
-        {
-          "id": "65f7cca",
-          "elType": "column",
-          "settings": {
-            "_column_size": 50,
-            "_inline_size": null
-          },
-          "elements": [
-            {
-              "id": "0790e4b",
-              "elType": "widget",
-              "settings": {
-                "title": "The Studio",
+                "title": "About",
                 "header_size": "h6",
-                "align": "left",
+                "align": "center",
                 "title_color": "rgba(255,255,255,0.85)",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
@@ -1272,7 +58,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "3a002a0",
+              "id": "9f970a7",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -1285,24 +71,198 @@
               "widgetType": "spacer"
             },
             {
-              "id": "01fe7ff",
+              "id": "4953454",
               "elType": "widget",
               "settings": {
-                "title": "I make loud, joyful art for people who feel too much.",
-                "header_size": "h2",
-                "align": "left",
+                "title": "About the Artist",
+                "header_size": "h1",
+                "align": "center",
                 "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.05,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1.5,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 42,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "1987255",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "e60cf89",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Contemporary painter. Big feelings, louder colours.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.9)",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "b134eaa",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "90",
+          "left": "0",
+          "isLinked": false
+        },
+        "gap": "wider"
+      },
+      "elements": [
+        {
+          "id": "d696848",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "cd800eb",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/620x720/FF6FA5/ffffff?text=Portrait",
+                  "id": ""
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                },
+                "image_size": "full"
+              },
+              "elements": [],
+              "widgetType": "image"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "399695b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "4dd677a",
+              "elType": "widget",
+              "settings": {
+                "title": "Meet the Artist",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#F5179E",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 38,
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "706cb77",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "3e614b3",
+              "elType": "widget",
+              "settings": {
+                "title": "Hi, I'm Whatshername \u2014 I make loud, feeling-first art.",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#26263A",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.25,
+                  "size": 1.2,
                   "sizes": []
                 },
                 "typography_letter_spacing": {
@@ -1315,7 +275,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "c5f2614",
+              "id": "9d2cd27",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -1328,12 +288,12 @@
               "widgetType": "spacer"
             },
             {
-              "id": "c7b8af0",
+              "id": "3edf2a9",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Every piece starts as a feeling and ends as colour. Watch a short film from inside the studio.</p>",
+                "editor": "<p>I'm a contemporary painter working in acrylic and mixed media. My work is about big feelings and the colours that come with them \u2014 joy, noise, restlessness and calm.</p>",
                 "align": "left",
-                "text_color": "rgba(255,255,255,0.9)",
+                "text_color": "#6E6E80",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
                 "typography_font_weight": "400",
@@ -1344,7 +304,7 @@
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.7,
+                  "size": 1.8,
                   "sizes": []
                 }
               },
@@ -1352,12 +312,36 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "5ba7657",
+              "id": "ed1c86b",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Based in London, I show work in galleries, paint murals, and make limited prints so the art can live in more homes.</p>",
+                "align": "left",
+                "text_color": "#6E6E80",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "d2e79c5",
               "elType": "widget",
               "settings": {
                 "space": {
                   "unit": "px",
-                  "size": 24,
+                  "size": 20,
                   "sizes": []
                 }
               },
@@ -1365,10 +349,10 @@
               "widgetType": "spacer"
             },
             {
-              "id": "2593e2e",
+              "id": "82defff",
               "elType": "widget",
               "settings": {
-                "text": "About the Artist",
+                "text": "See the Gallery",
                 "align": "left",
                 "link": {
                   "url": "#",
@@ -1391,7 +375,7 @@
                   "left": "40",
                   "isLinked": false
                 },
-                "button_text_color": "#9C1AE6",
+                "button_text_color": "#FFFFFF",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
                 "typography_font_weight": "600",
@@ -1406,47 +390,10 @@
                   "size": 0.5,
                   "sizes": []
                 },
-                "background_color": "#FFFFFF"
+                "background_color": "#F5179E"
               },
               "elements": [],
               "widgetType": "button"
-            }
-          ],
-          "isInner": false
-        },
-        {
-          "id": "0b9f3fd",
-          "elType": "column",
-          "settings": {
-            "_column_size": 50,
-            "_inline_size": null
-          },
-          "elements": [
-            {
-              "id": "f0f09ff",
-              "elType": "widget",
-              "settings": {
-                "video_type": "youtube",
-                "youtube_url": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
-                "show_image_overlay": "yes",
-                "image_overlay": {
-                  "url": "https://via.placeholder.com/800x500/7B2FF7/ffffff?text=Studio+Film",
-                  "id": ""
-                },
-                "lightbox": "yes",
-                "aspect_ratio": "169",
-                "play_icon_color": "#FFFFFF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "20",
-                  "right": "20",
-                  "bottom": "20",
-                  "left": "20",
-                  "isLinked": true
-                }
-              },
-              "elements": [],
-              "widgetType": "video"
             }
           ],
           "isInner": false
@@ -1455,7 +402,749 @@
       "isInner": false
     },
     {
-      "id": "55832ea",
+      "id": "0d13102",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F7F7FB",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "c022ebc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "017376d",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100,
+                "_inline_size": null
+              },
+              "elements": [
+                {
+                  "id": "05f68a6",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "How I Work",
+                    "header_size": "h6",
+                    "align": "center",
+                    "title_color": "#F5179E",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Poppins",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "d8c2455",
+                  "elType": "widget",
+                  "settings": {
+                    "space": {
+                      "unit": "px",
+                      "size": 12,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "spacer"
+                },
+                {
+                  "id": "48e64ee",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "What guides the work",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#26263A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Poppins",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 44,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.5,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "b4caa2f",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 46,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "e8365f0",
+              "elType": "section",
+              "settings": {
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "2201e9e",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "f77fe7f",
+                      "elType": "section",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "36",
+                          "bottom": "36",
+                          "left": "36",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 18,
+                          "blur": 50,
+                          "spread": 0,
+                          "color": "rgba(38,38,58,0.08)"
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#ECECF3"
+                      },
+                      "elements": [
+                        {
+                          "id": "46b025e",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 100,
+                            "_inline_size": null
+                          },
+                          "elements": [
+                            {
+                              "id": "f129f83",
+                              "elType": "widget",
+                              "settings": {
+                                "selected_icon": {
+                                  "value": "fas fa-heart",
+                                  "library": "fa-solid"
+                                },
+                                "primary_color": "#9C1AE6",
+                                "size": {
+                                  "unit": "px",
+                                  "size": 30,
+                                  "sizes": []
+                                },
+                                "align": "left"
+                              },
+                              "elements": [],
+                              "widgetType": "icon"
+                            },
+                            {
+                              "id": "641175f",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 18,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "9272831",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Feeling first",
+                                "header_size": "h4",
+                                "align": "left",
+                                "title_color": "#26263A",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "700",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 24,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.3,
+                                  "sizes": []
+                                },
+                                "typography_letter_spacing": {
+                                  "unit": "px",
+                                  "size": -0.3,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "heading"
+                            },
+                            {
+                              "id": "8129488",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "33aedbd",
+                              "elType": "widget",
+                              "settings": {
+                                "editor": "<p>Every piece starts as an emotion, not a plan. The colour follows the feeling.</p>",
+                                "align": "left",
+                                "text_color": "#6E6E80",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "400",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 16,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.75,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "text-editor"
+                            },
+                            {
+                              "id": "0814b95",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "a7fecde",
+                              "elType": "widget",
+                              "settings": {
+                                "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
+                                "align": "left",
+                                "text_color": "#9C1AE6",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "400",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 15,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.8,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "text-editor"
+                            }
+                          ],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "a2ae62b",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "72add33",
+                      "elType": "section",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "36",
+                          "bottom": "36",
+                          "left": "36",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 18,
+                          "blur": 50,
+                          "spread": 0,
+                          "color": "rgba(38,38,58,0.08)"
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#ECECF3"
+                      },
+                      "elements": [
+                        {
+                          "id": "56f1810",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 100,
+                            "_inline_size": null
+                          },
+                          "elements": [
+                            {
+                              "id": "08310b8",
+                              "elType": "widget",
+                              "settings": {
+                                "selected_icon": {
+                                  "value": "fas fa-fill-drip",
+                                  "library": "fa-solid"
+                                },
+                                "primary_color": "#F5179E",
+                                "size": {
+                                  "unit": "px",
+                                  "size": 30,
+                                  "sizes": []
+                                },
+                                "align": "left"
+                              },
+                              "elements": [],
+                              "widgetType": "icon"
+                            },
+                            {
+                              "id": "fe08949",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 18,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "ed305d3",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Colour without apology",
+                                "header_size": "h4",
+                                "align": "left",
+                                "title_color": "#26263A",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "700",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 24,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.3,
+                                  "sizes": []
+                                },
+                                "typography_letter_spacing": {
+                                  "unit": "px",
+                                  "size": -0.3,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "heading"
+                            },
+                            {
+                              "id": "9be4e9a",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "dfdb6c1",
+                              "elType": "widget",
+                              "settings": {
+                                "editor": "<p>I use the loudest colours I can find and let them argue with each other.</p>",
+                                "align": "left",
+                                "text_color": "#6E6E80",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "400",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 16,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.75,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "text-editor"
+                            },
+                            {
+                              "id": "3e622f3",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "2e434cb",
+                              "elType": "widget",
+                              "settings": {
+                                "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
+                                "align": "left",
+                                "text_color": "#9C1AE6",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "400",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 15,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.8,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "text-editor"
+                            }
+                          ],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "9874315",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "542c967",
+                      "elType": "section",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "36",
+                          "bottom": "36",
+                          "left": "36",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 18,
+                          "blur": 50,
+                          "spread": 0,
+                          "color": "rgba(38,38,58,0.08)"
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#ECECF3"
+                      },
+                      "elements": [
+                        {
+                          "id": "c7740de",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 100,
+                            "_inline_size": null
+                          },
+                          "elements": [
+                            {
+                              "id": "112d6ec",
+                              "elType": "widget",
+                              "settings": {
+                                "selected_icon": {
+                                  "value": "fas fa-hands-holding-circle",
+                                  "library": "fa-solid"
+                                },
+                                "primary_color": "#12D8E8",
+                                "size": {
+                                  "unit": "px",
+                                  "size": 30,
+                                  "sizes": []
+                                },
+                                "align": "left"
+                              },
+                              "elements": [],
+                              "widgetType": "icon"
+                            },
+                            {
+                              "id": "665b2ad",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 18,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "b8db73b",
+                              "elType": "widget",
+                              "settings": {
+                                "title": "Made to be lived with",
+                                "header_size": "h4",
+                                "align": "left",
+                                "title_color": "#26263A",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "700",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 24,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.3,
+                                  "sizes": []
+                                },
+                                "typography_letter_spacing": {
+                                  "unit": "px",
+                                  "size": -0.3,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "heading"
+                            },
+                            {
+                              "id": "dabef58",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 10,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "6e314d3",
+                              "elType": "widget",
+                              "settings": {
+                                "editor": "<p>Art shouldn't sit in storage. I make work \u2014 and prints \u2014 meant for real walls.</p>",
+                                "align": "left",
+                                "text_color": "#6E6E80",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "400",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 16,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.75,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "text-editor"
+                            },
+                            {
+                              "id": "331b145",
+                              "elType": "widget",
+                              "settings": {
+                                "space": {
+                                  "unit": "px",
+                                  "size": 14,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "spacer"
+                            },
+                            {
+                              "id": "898aaa9",
+                              "elType": "widget",
+                              "settings": {
+                                "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
+                                "align": "left",
+                                "text_color": "#9C1AE6",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Poppins",
+                                "typography_font_weight": "400",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 15,
+                                  "sizes": []
+                                },
+                                "typography_line_height": {
+                                  "unit": "em",
+                                  "size": 1.8,
+                                  "sizes": []
+                                }
+                              },
+                              "elements": [],
+                              "widgetType": "text-editor"
+                            }
+                          ],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "14ef503",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -1471,7 +1160,7 @@
       },
       "elements": [
         {
-          "id": "3d5da8d",
+          "id": "f6d4684",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -1479,7 +1168,7 @@
           },
           "elements": [
             {
-              "id": "055b583",
+              "id": "718bf9f",
               "elType": "column",
               "settings": {
                 "_column_size": 100,
@@ -1487,7 +1176,7 @@
               },
               "elements": [
                 {
-                  "id": "cbe6c3a",
+                  "id": "56641b8",
                   "elType": "widget",
                   "settings": {
                     "title": "The Story",
@@ -1513,7 +1202,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f2130f2",
+                  "id": "9733ad5",
                   "elType": "widget",
                   "settings": {
                     "space": {
@@ -1526,7 +1215,7 @@
                   "widgetType": "spacer"
                 },
                 {
-                  "id": "7fb95b0",
+                  "id": "2b98473",
                   "elType": "widget",
                   "settings": {
                     "title": "A bit about the work",
@@ -1559,7 +1248,7 @@
               "isInner": false
             },
             {
-              "id": "84bdeed",
+              "id": "bfaab65",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -1572,14 +1261,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "c6b19b5",
+              "id": "5addaa6",
               "elType": "section",
               "settings": {
                 "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "7e7ca68",
+                  "id": "9df54cc",
                   "elType": "column",
                   "settings": {
                     "_column_size": 50,
@@ -1587,7 +1276,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e5d7c0c",
+                      "id": "eddab3d",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>2024</p>",
@@ -1611,7 +1300,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "6a586bb",
+                      "id": "2f7ff44",
                       "elType": "widget",
                       "settings": {
                         "title": "Solo Show \u2014 &ldquo;Loud Quiet&rdquo;",
@@ -1641,7 +1330,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "963ab89",
+                      "id": "90f2031",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1654,7 +1343,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "47383b2",
+                      "id": "20f9efd",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>A full room of large-scale canvases exploring stillness inside chaos. Sold out on opening night.</p>",
@@ -1678,7 +1367,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "cc1e644",
+                      "id": "d1a628d",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1691,7 +1380,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "4ebe598",
+                      "id": "88fe570",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
@@ -1715,7 +1404,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "0b21b97",
+                      "id": "5238ccd",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1731,7 +1420,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "d5b21bd",
+                  "id": "1cc861d",
                   "elType": "column",
                   "settings": {
                     "_column_size": 50,
@@ -1739,7 +1428,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3a7234e",
+                      "id": "b43fb6f",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>2023</p>",
@@ -1763,7 +1452,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "a1834d0",
+                      "id": "eb17275",
                       "elType": "widget",
                       "settings": {
                         "title": "Print Studio Launch",
@@ -1793,7 +1482,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "a84665e",
+                      "id": "e2607fc",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1806,7 +1495,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "44015d9",
+                      "id": "bef5adc",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Opened a small-batch print studio to make the work affordable and accessible to more collectors.</p>",
@@ -1830,7 +1519,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "3e912b1",
+                      "id": "a30ae9d",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1843,7 +1532,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "a39c13c",
+                      "id": "65f2b6c",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
@@ -1867,7 +1556,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "029c6f6",
+                      "id": "fe93443",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1883,7 +1572,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "49a5763",
+                  "id": "aaf83ab",
                   "elType": "column",
                   "settings": {
                     "_column_size": 50,
@@ -1891,7 +1580,7 @@
                   },
                   "elements": [
                     {
-                      "id": "b405c48",
+                      "id": "ee0cda5",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>2022</p>",
@@ -1915,7 +1604,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "4158f09",
+                      "id": "26644aa",
                       "elType": "widget",
                       "settings": {
                         "title": "Public Mural Series",
@@ -1945,7 +1634,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "ae67a40",
+                      "id": "b7aeba5",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1958,7 +1647,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "e21693b",
+                      "id": "1cccaea",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Three city-centre murals commissioned to brighten overlooked corners of the high street.</p>",
@@ -1982,7 +1671,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "8098256",
+                      "id": "822b897",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1995,7 +1684,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "5aebfad",
+                      "id": "9746e82",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
@@ -2019,7 +1708,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "ad72506",
+                      "id": "cbabaf4",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -2035,7 +1724,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "c0e336c",
+                  "id": "c82081f",
                   "elType": "column",
                   "settings": {
                     "_column_size": 50,
@@ -2043,7 +1732,7 @@
                   },
                   "elements": [
                     {
-                      "id": "bca6ea1",
+                      "id": "021ebb4",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>2021</p>",
@@ -2067,7 +1756,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "c72220c",
+                      "id": "63603a9",
                       "elType": "widget",
                       "settings": {
                         "title": "First Collection",
@@ -2097,7 +1786,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "870e6f7",
+                      "id": "ec8a3a4",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -2110,7 +1799,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "5f50cd1",
+                      "id": "c0dc039",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>The debut body of work that set the palette and energy the studio is known for today.</p>",
@@ -2134,7 +1823,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "7389edf",
+                      "id": "e70f6d5",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -2147,7 +1836,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "66b805d",
+                      "id": "9823e03",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#9C1AE6;font-weight:600\">Read more &rarr;</a></p>",
@@ -2171,7 +1860,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "b937016",
+                      "id": "a0acc4f",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -2198,6 +1887,6 @@
   ],
   "page_settings": {},
   "version": "0.4",
-  "title": "Whatshername \u2014 Home",
+  "title": "Whatshername \u2014 About",
   "type": "page"
 }

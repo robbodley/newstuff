@@ -1,0 +1,111 @@
+<title>Whatshername About & Contact</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+  :root{
+    --white:#fff;--light:#F7F7FB;--head:#26263A;--muted:#6E6E80;
+    --purple:#9C1AE6;--magenta:#F5179E;--cyan:#12D8E8;--border:#ECECF3;
+    --grad:linear-gradient(135deg,#7B2FF7 0%,#F0139C 100%);--f:'Poppins',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:var(--f);color:var(--head);background:#fff;line-height:1.6}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+  h1,h2,h3,h4,h5{font-family:var(--f);letter-spacing:-.5px}
+  .eyebrow{font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--magenta)}
+  .btn{display:inline-block;font-weight:600;font-size:14px;letter-spacing:.5px;text-transform:uppercase;
+    padding:15px 36px;border-radius:50px;text-decoration:none;background:var(--magenta);color:#fff;border:2px solid transparent}
+  .muted{color:var(--muted)}.center{text-align:center}
+  section{padding:100px 0}
+  .tile{border-radius:18px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;
+    font-size:20px;text-shadow:0 1px 8px rgba(0,0,0,.25)}
+  .g6{background:linear-gradient(135deg,#FF6FA5,#7B2FF7)}
+  .phead{background:var(--grad);text-align:center;padding:100px 0}
+  .phead h1{color:#fff;font-size:clamp(42px,7vw,64px);font-weight:800}
+  .phead .eyebrow{color:rgba(255,255,255,.85)}.phead p{color:rgba(255,255,255,.9);max-width:620px;margin:14px auto 0;font-size:19px}
+  .split{display:grid;grid-template-columns:45% 55%;gap:56px;align-items:center}
+  .split.r{grid-template-columns:55% 45%}
+  .split h2{font-size:40px;font-weight:800;line-height:1.2;margin:12px 0 16px}
+  .split p{color:var(--muted);font-size:18px;margin-bottom:14px}
+  .light{background:var(--light)}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:46px}
+  .card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:36px;box-shadow:0 18px 50px rgba(38,38,58,.08)}
+  .card .ico{font-size:30px;margin-bottom:16px}.card h4{font-size:24px;font-weight:700;margin-bottom:10px}
+  .card p{color:var(--muted);font-size:16px}
+  /* contact */
+  .cinfo strong{color:var(--head)}
+  .form{background:#fff;border:1px solid var(--border);border-radius:18px;padding:36px;box-shadow:0 18px 50px rgba(38,38,58,.08)}
+  .form label{display:block;font-weight:600;font-size:14px;margin:14px 0 6px}
+  .form input,.form textarea{width:100%;padding:13px 16px;border:1px solid var(--border);border-radius:10px;
+    font-family:var(--f);font-size:15px;background:var(--light)}
+  .form .btn{width:100%;text-align:center;margin-top:20px;border:none;cursor:pointer}
+  .map{height:420px;background:linear-gradient(135deg,#12D8E8,#4B2FF7);display:flex;align-items:center;
+    justify-content:center;color:#fff;font-weight:700}
+  footer{background:var(--grad);padding:70px 0 55px;color:#fff}
+  .fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px}
+  footer .logo{font-weight:700;font-size:24px}footer h6{text-transform:uppercase;font-size:14px;margin-bottom:14px}
+  footer a{display:block;color:rgba(255,255,255,.75);text-decoration:none;padding:5px 0;font-size:15px}
+  footer p{color:rgba(255,255,255,.7);font-size:15px}
+  .divider{text-align:center;padding:40px 0;background:var(--light);color:var(--muted);font-weight:700;
+    text-transform:uppercase;letter-spacing:2px;font-size:13px}
+  @media(max-width:860px){.split,.split.r,.cards,.fgrid{grid-template-columns:1fr}}
+</style>
+
+<!-- ABOUT -->
+<div class="divider">Page — About</div>
+<div class="phead"><div class="wrap"><div class="eyebrow">About</div><h1>About the Artist</h1>
+  <p>Contemporary painter. Big feelings, louder colours.</p></div></div>
+
+<section><div class="wrap split">
+  <div class="tile g6" style="aspect-ratio:5/6">Portrait</div>
+  <div>
+    <div class="eyebrow">Meet the Artist</div>
+    <h2>Hi, I'm Whatshername — I make loud, feeling-first art.</h2>
+    <p>I'm a contemporary painter working in acrylic and mixed media. My work is about big feelings and the colours that come with them — joy, noise, restlessness and calm.</p>
+    <p>Based in London, I show work in galleries, paint murals, and make limited prints so the art can live in more homes.</p>
+    <a href="#" class="btn" style="margin-top:8px">See the Gallery</a>
+  </div>
+</div></section>
+
+<section class="light"><div class="wrap">
+  <div class="center"><div class="eyebrow">How I Work</div>
+    <h2 style="font-size:44px;font-weight:700;margin-top:12px">What guides the work</h2></div>
+  <div class="cards">
+    <div class="card"><div class="ico" style="color:var(--purple)">&#10084;</div><h4>Feeling first</h4>
+      <p>Every piece starts as an emotion, not a plan. The colour follows the feeling.</p></div>
+    <div class="card"><div class="ico" style="color:var(--magenta)">&#127912;</div><h4>Colour without apology</h4>
+      <p>I use the loudest colours I can find and let them argue with each other.</p></div>
+    <div class="card"><div class="ico" style="color:var(--cyan)">&#129309;</div><h4>Made to be lived with</h4>
+      <p>Art shouldn't sit in storage. I make work — and prints — meant for real walls.</p></div>
+  </div>
+</div></section>
+
+<!-- CONTACT -->
+<div class="divider">Page — Contact</div>
+<div class="phead"><div class="wrap"><div class="eyebrow">Contact</div><h1>Say Hello</h1>
+  <p>Commissions, prints, press and studio visits.</p></div></div>
+
+<section><div class="wrap split r">
+  <div class="cinfo">
+    <div class="eyebrow">Say Hello</div>
+    <h2>Let's make something together.</h2>
+    <p>Commissions, print enquiries, press or studio visits — drop a note and I'll get back to you within a few days.</p>
+    <p style="margin-top:18px"><strong>Email</strong><br>hello@whatshername.uk</p>
+    <p><strong>Studio</strong><br>Unit 4, Bright Lane, London</p>
+    <p><strong>Instagram</strong><br>@whatshername.uk</p>
+  </div>
+  <div class="form">
+    <label>Name</label><input placeholder="Your name">
+    <label>Email</label><input placeholder="you@email.com">
+    <label>Subject</label><input placeholder="Commission / Print / Press">
+    <label>Message</label><textarea rows="5" placeholder="Tell me a little about what you have in mind"></textarea>
+    <a href="#" class="btn">Send Message</a>
+  </div>
+</div></section>
+<div class="map">Google Map — London, UK</div>
+
+<footer style="margin-top:0"><div class="wrap fgrid">
+  <div><div class="logo">Whatshername</div>
+    <p style="margin-top:12px;max-width:280px">Contemporary artist &amp; visual storyteller. Original paintings, limited prints and commissions.</p></div>
+  <div><h6>Explore</h6><a href="#">Home</a><a href="#">About</a><a href="#">Gallery</a><a href="#">Journal</a></div>
+  <div><h6>Buy Art</h6><a href="#">Original Paintings</a><a href="#">Limited Prints</a><a href="#">Commissions</a></div>
+  <div><h6>Connect</h6><a href="#">Instagram</a><a href="#">Contact</a><a href="#">Newsletter</a></div>
+</div></footer>

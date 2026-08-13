@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "07dbeec",
+      "id": "9bd645c",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
@@ -40,7 +40,7 @@
       },
       "elements": [
         {
-          "id": "ee9c5e5",
+          "id": "ea30319",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -48,14 +48,14 @@
           },
           "elements": [
             {
-              "id": "95193a0",
+              "id": "9e42048",
               "elType": "section",
               "settings": {
                 "gap": "wider"
               },
               "elements": [
                 {
-                  "id": "6daa87c",
+                  "id": "ed897f4",
                   "elType": "column",
                   "settings": {
                     "_column_size": 55,
@@ -63,7 +63,7 @@
                   },
                   "elements": [
                     {
-                      "id": "65cbff3",
+                      "id": "882ab9b",
                       "elType": "widget",
                       "settings": {
                         "title": "Get new drops &amp; show news in your inbox.",
@@ -96,7 +96,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "fbb7ebb",
+                  "id": "2602a79",
                   "elType": "column",
                   "settings": {
                     "_column_size": 45,
@@ -104,7 +104,7 @@
                   },
                   "elements": [
                     {
-                      "id": "6a5646b",
+                      "id": "bbe968a",
                       "elType": "widget",
                       "settings": {
                         "text": "Subscribe",

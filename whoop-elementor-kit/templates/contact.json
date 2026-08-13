@@ -1,0 +1,567 @@
+{
+  "content": [
+    {
+      "id": "ff30146",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#7B2FF7",
+        "background_color_b": "#F0139C",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "e2e3922",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "efc3987",
+              "elType": "widget",
+              "settings": {
+                "title": "Contact",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "rgba(255,255,255,0.85)",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "856b500",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "0ce27bf",
+              "elType": "widget",
+              "settings": {
+                "title": "Say Hello",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.05,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1.5,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 42,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "6dfced2",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "d490d4f",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Commissions, prints, press and studio visits.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.9)",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "1180814",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "90",
+          "left": "0",
+          "isLinked": false
+        },
+        "gap": "wider"
+      },
+      "elements": [
+        {
+          "id": "30d9b46",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "dda5c37",
+              "elType": "widget",
+              "settings": {
+                "title": "Say Hello",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#F5179E",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "ac6676b",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "069e628",
+              "elType": "widget",
+              "settings": {
+                "title": "Let's make something together.",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#26263A",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "1dceebe",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "058295b",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Commissions, print enquiries, press or studio visits \u2014 drop a note and I'll get back to you within a few days.</p>",
+                "align": "left",
+                "text_color": "#6E6E80",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f34da48",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "a4ed17b",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong style=\"color:#26263A\">Email</strong><br>hello@whatshername.uk</p>",
+                "align": "left",
+                "text_color": "#6E6E80",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.9,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "64313e8",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong style=\"color:#26263A\">Studio</strong><br>Unit 4, Bright Lane, London</p>",
+                "align": "left",
+                "text_color": "#6E6E80",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.9,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "bc37659",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong style=\"color:#26263A\">Instagram</strong><br>@whatshername.uk</p>",
+                "align": "left",
+                "text_color": "#6E6E80",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.9,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "6f8ab35",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3a149a1",
+              "elType": "section",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "36",
+                  "right": "36",
+                  "bottom": "36",
+                  "left": "36",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 50,
+                  "spread": 0,
+                  "color": "rgba(38,38,58,0.08)"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#ECECF3"
+              },
+              "elements": [
+                {
+                  "id": "c22e525",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "9e3f879",
+                      "elType": "widget",
+                      "settings": {
+                        "form_name": "Contact",
+                        "form_fields": [
+                          {
+                            "_id": "name",
+                            "field_type": "text",
+                            "field_label": "Name",
+                            "placeholder": "Your name",
+                            "required": "true",
+                            "width": "100"
+                          },
+                          {
+                            "_id": "email",
+                            "field_type": "email",
+                            "field_label": "Email",
+                            "placeholder": "you@email.com",
+                            "required": "true",
+                            "width": "100"
+                          },
+                          {
+                            "_id": "subject",
+                            "field_type": "text",
+                            "field_label": "Subject",
+                            "placeholder": "Commission / Print / Press",
+                            "width": "100"
+                          },
+                          {
+                            "_id": "message",
+                            "field_type": "textarea",
+                            "field_label": "Message",
+                            "placeholder": "Tell me a little about what you have in mind",
+                            "required": "true",
+                            "width": "100",
+                            "rows": 5
+                          }
+                        ],
+                        "button_text": "Send Message",
+                        "button_size": "md",
+                        "button_width": "100",
+                        "button_background_color": "#F5179E",
+                        "label_typography_typography": "custom",
+                        "label_typography_font_family": "Poppins",
+                        "label_typography_font_weight": "600",
+                        "button_typography_typography": "custom",
+                        "button_typography_font_family": "Poppins",
+                        "button_typography_font_weight": "600",
+                        "button_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "form"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "8d8e845",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "ef99bcb",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3efac18",
+              "elType": "widget",
+              "settings": {
+                "address": "London, UK",
+                "zoom": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 420,
+                  "sizes": []
+                },
+                "css_filters_css_filter": "custom",
+                "css_filters_saturate": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "google_maps"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {},
+  "version": "0.4",
+  "title": "Whatshername \u2014 Contact",
+  "type": "page"
+}

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "8cef8f6",
+      "id": "94993db",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -18,7 +18,7 @@
       },
       "elements": [
         {
-          "id": "74a7183",
+          "id": "5562dc5",
           "elType": "column",
           "settings": {
             "_column_size": 55,
@@ -26,7 +26,7 @@
           },
           "elements": [
             {
-              "id": "97b401a",
+              "id": "22fb56c",
               "elType": "widget",
               "settings": {
                 "image": {
@@ -50,7 +50,7 @@
           "isInner": false
         },
         {
-          "id": "cb798b0",
+          "id": "f4a0d6d",
           "elType": "column",
           "settings": {
             "_column_size": 45,
@@ -58,7 +58,7 @@
           },
           "elements": [
             {
-              "id": "8d7ed88",
+              "id": "6fe91fc",
               "elType": "widget",
               "settings": {
                 "title": "Featured \u00b7 Studio Notes",
@@ -84,7 +84,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "38d9c5c",
+              "id": "4ac4cb3",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -97,7 +97,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "4265236",
+              "id": "9eafa0b",
               "elType": "widget",
               "settings": {
                 "title": "Why I paint in the loudest colours I can find",
@@ -127,7 +127,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "f0835f4",
+              "id": "9627b9d",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -140,7 +140,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "d1eaa44",
+              "id": "5d79e26",
               "elType": "widget",
               "settings": {
                 "editor": "<p>A long read on colour, chaos and process \u2014 and why restraint has never really been my thing.</p>",
@@ -164,7 +164,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "e69c319",
+              "id": "063cacd",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -177,7 +177,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "af61bcd",
+              "id": "a809293",
               "elType": "widget",
               "settings": {
                 "editor": "<p>By Whatshername&nbsp;&nbsp;\u00b7&nbsp;&nbsp;13 Aug 2026&nbsp;&nbsp;\u00b7&nbsp;&nbsp;6 min read</p>",
@@ -201,7 +201,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "914bf85",
+              "id": "00403a1",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -214,7 +214,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "bb6c92e",
+              "id": "3b79a91",
               "elType": "widget",
               "settings": {
                 "text": "Read the Article",

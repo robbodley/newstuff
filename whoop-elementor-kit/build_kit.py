@@ -726,6 +726,238 @@ def s_related():
 
 
 # ===========================================================================
+# ELEMENTOR PRO — THEME BUILDER TEMPLATES (dynamic)
+# ===========================================================================
+# These use Pro "Theme" widgets that pull the real post data automatically,
+# so no fragile dynamic-tag encoding is needed. Assign display conditions
+# after import (documented in the README).
+
+def w_nav_menu():
+    s = {"menu": "", "align_items": "center", "pointer": "underline",
+         "menu_typography_typography": "custom",
+         "menu_typography_font_family": FONT_HEAD,
+         "menu_typography_font_weight": "500",
+         "menu_typography_font_size": size(15),
+         "color_menu_item": HEAD_DARK, "color_menu_item_hover": PURPLE,
+         "pointer_color_hover": PURPLE}
+    return widget("nav-menu", s)
+
+
+def w_archive_title():
+    s = {"header_size": "h1", "align": "center", "title_color": WHITE}
+    s.update(typo(FONT_HEAD, 800, 60, 1.05, -1))
+    return widget("archive-title", s)
+
+
+def w_archive_posts():
+    s = {"_skin": "classic",
+         "classic_columns": "3", "classic_columns_tablet": "2",
+         "classic_columns_mobile": "1",
+         "classic_row_gap": {"unit": "px", "size": 40, "sizes": []},
+         "classic_show_excerpt": "yes", "classic_excerpt_length": 18,
+         "classic_meta_data": ["date", "comments"],
+         "classic_read_more_text": "Read more →",
+         "title_color": HEAD_DARK, "excerpt_color": BODY_MUTED,
+         "meta_color": "#9A9AAB"}
+    s.update({f"title_typography_{k}": v
+              for k, v in typo(FONT_HEAD, 700, 22, 1.3).items()})
+    return widget("archive-posts", s)
+
+
+def w_post_title(color=WHITE, align="center", fsize=52):
+    s = {"title_tag": "h1", "align": align, "title_color": color}
+    s.update(typo(FONT_HEAD, 800, fsize, 1.12, -1))
+    return widget("theme-post-title", s)
+
+
+def w_post_info(color=WHITE, align="center"):
+    s = {"align": align, "text_color": color, "icon_color": color}
+    s.update({f"list_typography_{k}": v
+              for k, v in typo(FONT_BODY, 500, 14).items()})
+    return widget("post-info", s)
+
+
+def w_featured_image(rounded=18):
+    return widget("theme-post-featured-image",
+                  {"image_size": "large", "align": "center",
+                   "image_border_radius": radius(rounded)})
+
+
+def w_post_content():
+    s = {"text_color": BODY_MUTED}
+    s.update(typo(FONT_BODY, 400, 18, 1.85))
+    return widget("theme-post-content", s)
+
+
+def w_related_posts():
+    s = {"_skin": "classic",
+         "posts_post_type": "post", "posts_posts_per_page": 3,
+         "classic_columns": "3", "classic_columns_mobile": "1",
+         "classic_row_gap": {"unit": "px", "size": 32, "sizes": []},
+         "classic_show_excerpt": "yes", "classic_excerpt_length": 14,
+         "classic_meta_data": ["date"],
+         "title_color": HEAD_DARK, "excerpt_color": BODY_MUTED,
+         "meta_color": "#9A9AAB"}
+    s.update({f"title_typography_{k}": v
+              for k, v in typo(FONT_HEAD, 700, 20, 1.3).items()})
+    return widget("posts", s)
+
+
+def t_header():
+    logo = column([heading(BRAND, "h4", MAGENTA, "left", FONT_HEAD, 700, 26,
+                           1, -0.5)], 25)
+    nav = column([w_nav_menu()], 50)
+    cta = column([button("Commission", align="right", small=True)], 25)
+    return [section([logo, nav, cta],
+                    {**bg(WHITE, 18, 18), "border_border": "solid",
+                     "border_width": px(0, 0, 1, 0), "border_color": BORDER})]
+
+
+def t_footer():
+    return [s_newsletter(), s_footer()]
+
+
+def t_archive():
+    header = section([column([
+        eyebrow("The Journal", "rgba(255,255,255,0.85)"),
+        spacer(12), w_archive_title(), spacer(12),
+        paragraph("Essays, studio notes and news from behind the canvas.",
+                  "rgba(255,255,255,0.9)", "center", 18, 1.7),
+    ])], gradient_bg(GRAD_A, GRAD_B, 135, 100, 100))
+    grid = section([column([w_archive_posts()])], bg(BG_LIGHT, 90, 90))
+    return [header, grid]
+
+
+def t_single():
+    header = section([column([
+        w_post_title(WHITE, "center", 52),
+        spacer(16), w_post_info(WHITE, "center"),
+    ])], gradient_bg(GRAD_A, GRAD_B, 135, 110, 80))
+    body = section([column([
+        w_featured_image(18), spacer(30), w_post_content(),
+    ])], {**bg(WHITE, 70, 70),
+          "content_width": {"unit": "px", "size": 820, "sizes": []}})
+    related = section([column([
+        eyebrow("Keep Reading"), spacer(12),
+        heading("More from the journal", "h2", HEAD_DARK, "center",
+                FONT_HEAD, 700, 40, 1.15, -0.5),
+        spacer(40), w_related_posts(),
+    ])], bg(BG_LIGHT, 90, 90))
+    return [header, body, related]
+
+
+# ===========================================================================
+# ABOUT + CONTACT PAGES
+# ===========================================================================
+def s_about_intro():
+    portrait = column([img(tile_url(6, 620, 720, "Portrait"), 18)], 45)
+    text = column([
+        eyebrow("Meet the Artist", MAGENTA, "left"),
+        spacer(12),
+        heading("Hi, I'm Whatshername — I make loud, feeling-first art.",
+                "h2", HEAD_DARK, "left", FONT_HEAD, 800, 40, 1.2, -0.5),
+        spacer(16),
+        paragraph("I'm a contemporary painter working in acrylic and mixed "
+                  "media. My work is about big feelings and the colours that "
+                  "come with them — joy, noise, restlessness and calm.",
+                  BODY_MUTED, "left", 18, 1.8),
+        paragraph("Based in London, I show work in galleries, paint murals, "
+                  "and make limited prints so the art can live in more homes.",
+                  BODY_MUTED, "left", 18, 1.8),
+        spacer(20),
+        button("See the Gallery", align="left", link="#"),
+    ], 55)
+    return section([portrait, text], {**bg(WHITE, 100, 90), "gap": "wider"})
+
+
+def s_about_values():
+    head = column([
+        eyebrow("How I Work"),
+        spacer(12),
+        heading("What guides the work", "h2", HEAD_DARK, "center",
+                FONT_HEAD, 700, 44, 1.15, -0.5),
+    ])
+    cards = section([
+        service_card("fas fa-heart", "Feeling first",
+                     "Every piece starts as an emotion, not a plan. The "
+                     "colour follows the feeling.", PURPLE),
+        service_card("fas fa-fill-drip", "Colour without apology",
+                     "I use the loudest colours I can find and let them "
+                     "argue with each other.", MAGENTA),
+        service_card("fas fa-hands-holding-circle", "Made to be lived with",
+                     "Art shouldn't sit in storage. I make work — and prints "
+                     "— meant for real walls.", CYAN),
+    ], {"gap": "extended"}, inner=True)
+    return section([column([head, spacer(46), cards])], bg(BG_LIGHT, 100, 100))
+
+
+def s_contact_body():
+    info = column([
+        eyebrow("Say Hello", MAGENTA, "left"),
+        spacer(12),
+        heading("Let's make something together.", "h2", HEAD_DARK, "left",
+                FONT_HEAD, 800, 38, 1.2, -0.5),
+        spacer(16),
+        paragraph("Commissions, print enquiries, press or studio visits — "
+                  "drop a note and I'll get back to you within a few days.",
+                  BODY_MUTED, "left", 18, 1.8),
+        spacer(22),
+        paragraph('<strong style="color:%s">Email</strong><br>'
+                  'hello@whatshername.uk' % HEAD_DARK, BODY_MUTED, "left",
+                  16, 1.9),
+        paragraph('<strong style="color:%s">Studio</strong><br>'
+                  'Unit 4, Bright Lane, London' % HEAD_DARK, BODY_MUTED,
+                  "left", 16, 1.9),
+        paragraph('<strong style="color:%s">Instagram</strong><br>'
+                  '@whatshername.uk' % HEAD_DARK, BODY_MUTED, "left", 16,
+                  1.9),
+    ], 45)
+    form = column([section([column([w_contact_form()], 100,
+                                    {"padding": px(0, 0, 0, 0)})],
+                           card(WHITE, 36), inner=True)], 55)
+    return section([info, form], {**bg(WHITE, 100, 90), "gap": "wider"})
+
+
+def w_contact_form():
+    fields = [
+        {"_id": "name", "field_type": "text", "field_label": "Name",
+         "placeholder": "Your name", "required": "true", "width": "100"},
+        {"_id": "email", "field_type": "email", "field_label": "Email",
+         "placeholder": "you@email.com", "required": "true", "width": "100"},
+        {"_id": "subject", "field_type": "text", "field_label": "Subject",
+         "placeholder": "Commission / Print / Press", "width": "100"},
+        {"_id": "message", "field_type": "textarea", "field_label": "Message",
+         "placeholder": "Tell me a little about what you have in mind",
+         "required": "true", "width": "100", "rows": 5},
+    ]
+    s = {"form_name": "Contact", "form_fields": fields,
+         "button_text": "Send Message", "button_size": "md",
+         "button_width": "100", "button_background_color": MAGENTA,
+         "label_typography_typography": "custom",
+         "label_typography_font_family": FONT_HEAD,
+         "label_typography_font_weight": "600",
+         "button_typography_typography": "custom",
+         "button_typography_font_family": FONT_HEAD,
+         "button_typography_font_weight": "600",
+         "button_border_radius": radius(50)}
+    return widget("form", s)
+
+
+def s_contact_map():
+    return section([column([
+        widget("google_maps", {"address": "London, UK",
+                               "zoom": {"unit": "px", "size": 12,
+                                        "sizes": []},
+                               "height": {"unit": "px", "size": 420,
+                                          "sizes": []},
+                               "css_filters_css_filter": "custom",
+                               "css_filters_saturate": {"unit": "px",
+                                                        "size": 0,
+                                                        "sizes": []}})
+    ])], {"padding": px(0, 0, 0, 0)})
+
+
+# ===========================================================================
 # ASSEMBLE + WRITE
 # ===========================================================================
 def write(name, data):
@@ -735,48 +967,57 @@ def write(name, data):
     print("wrote", path)
 
 
-# Home
-write("home.json", wrap(f"{BRAND} — Home", [
-    s_nav(), s_hero(), s_recent(), s_services(), s_band(), s_about(),
-    s_newsletter(), s_footer(),
-], "page"))
+# ---------------------------------------------------------------------------
+# PAGES (content only — global Header/Footer templates wrap them)
+# ---------------------------------------------------------------------------
+PAGES = {
+    "home": ("Home", [
+        s_hero(), s_recent(), s_services(), s_band(), s_about()]),
+    "about": ("About", [
+        s_page_header("About", "About the Artist",
+                      "Contemporary painter. Big feelings, louder colours."),
+        s_about_intro(), s_about_values(), s_about()]),
+    "gallery": ("Gallery", [
+        s_page_header("Portfolio", "Gallery",
+                      "A living collection of paintings, prints and murals — "
+                      "filter by type or just scroll and enjoy."),
+        s_gallery_body()]),
+    "shop": ("Shop", [
+        s_page_header("Buy Art", "Shop",
+                      "Take a piece home. Original paintings and limited "
+                      "prints, shipped worldwide."),
+        s_shop_body()]),
+    "blog": ("Journal", [
+        s_page_header("The Journal", "Studio Journal",
+                      "Essays, studio notes and news from behind the "
+                      "canvas."),
+        s_featured_post(), s_blog_grid()]),
+    "single-article": ("Article (static)", [
+        s_article_hero(), s_article_body(), s_related()]),
+    "contact": ("Contact", [
+        s_page_header("Contact", "Say Hello",
+                      "Commissions, prints, press and studio visits."),
+        s_contact_body(), s_contact_map()]),
+}
 
-# Gallery
-write("gallery.json", wrap(f"{BRAND} — Gallery", [
-    s_nav(),
-    s_page_header("Portfolio", "Gallery",
-                  "A living collection of paintings, prints and murals — "
-                  "filter by type or just scroll and enjoy."),
-    s_gallery_body(),
-    s_newsletter(), s_footer(),
-], "page"))
+for slug, (title, content) in PAGES.items():
+    write(f"{slug}.json", wrap(f"{BRAND} — {title}", content, "page"))
 
-# Shop (scaffold)
-write("shop.json", wrap(f"{BRAND} — Shop", [
-    s_nav(),
-    s_page_header("Buy Art", "Shop",
-                  "Take a piece home. Original paintings and limited prints, "
-                  "shipped worldwide."),
-    s_shop_body(),
-    s_newsletter(), s_footer(),
-], "page"))
+# ---------------------------------------------------------------------------
+# THEME BUILDER TEMPLATES (Elementor Pro — dynamic)
+# ---------------------------------------------------------------------------
+THEME_TEMPLATES = {
+    "header":      ("Header", "header", t_header()),
+    "footer":      ("Footer", "footer", t_footer()),
+    "archive":     ("Journal Archive", "archive", t_archive()),
+    "single-post": ("Single Post", "single-post", t_single()),
+}
+for slug, (title, dtype, content) in THEME_TEMPLATES.items():
+    write(f"tb-{slug}.json", wrap(f"{BRAND} — {title}", content, dtype))
 
-# Blog / Journal archive
-write("blog.json", wrap(f"{BRAND} — Journal", [
-    s_nav(),
-    s_page_header("The Journal", "Studio Journal",
-                  "Essays, studio notes and news from behind the canvas."),
-    s_featured_post(), s_blog_grid(),
-    s_newsletter(), s_footer(),
-], "page"))
-
-# Single article
-write("single-article.json", wrap(f"{BRAND} — Article", [
-    s_nav(), s_article_hero(), s_article_body(), s_related(),
-    s_newsletter(), s_footer(),
-], "page"))
-
-# Reusable section blocks
+# ---------------------------------------------------------------------------
+# REUSABLE SECTION BLOCKS
+# ---------------------------------------------------------------------------
 write("section-hero.json", wrap(f"{BRAND} — Hero", [s_hero()], "section"))
 write("section-featured-post.json", wrap(f"{BRAND} — Featured Post",
                                          [s_featured_post()], "section"))
@@ -786,6 +1027,131 @@ write("section-gradient-band.json", wrap(f"{BRAND} — Gradient Band",
                                          [s_band()], "section"))
 write("section-newsletter.json", wrap(f"{BRAND} — Newsletter",
                                       [s_newsletter()], "section"))
+
+
+# ===========================================================================
+# ELEMENTOR "IMPORT/EXPORT KIT" PACKAGE  (one-click import, Pro)
+# ===========================================================================
+import shutil
+import zipfile
+import datetime
+
+KIT_DIR = os.path.join(os.path.dirname(__file__), "kit-build")
+KIT_ZIP = os.path.join(os.path.dirname(__file__), "whatshername-kit.zip")
+
+
+def site_settings():
+    def col(_id, title, color):
+        return {"_id": _id, "title": title, "color": color}
+
+    def typ(_id, title, weight):
+        return {"_id": _id, "title": title, "typography_typography": "custom",
+                "typography_font_family": FONT_HEAD,
+                "typography_font_weight": weight}
+    return {"settings": {
+        "template": "default",
+        "system_colors": [
+            col("primary", "Primary", PURPLE),
+            col("secondary", "Secondary", MAGENTA),
+            col("text", "Text", HEAD_DARK),
+            col("accent", "Accent", CYAN)],
+        "custom_colors": [
+            col("gstart", "Gradient Start", GRAD_A),
+            col("gend", "Gradient End", GRAD_B),
+            col("cyan", "Cyan", CYAN),
+            col("yellow", "Yellow", YELLOW)],
+        "system_typography": [
+            typ("primary", "Primary", "700"),
+            typ("secondary", "Secondary", "800"),
+            typ("text", "Text", "400"),
+            typ("accent", "Accent", "600")],
+        "custom_typography": [],
+        "default_generic_fonts": "Sans-serif",
+        "body_typography_typography": "custom",
+        "body_typography_font_family": FONT_BODY,
+        "body_typography_font_weight": "400",
+    }}
+
+
+def build_kit():
+    if os.path.isdir(KIT_DIR):
+        shutil.rmtree(KIT_DIR)
+    page_dir = os.path.join(KIT_DIR, "content", "page")
+    tmpl_dir = os.path.join(KIT_DIR, "templates")
+    os.makedirs(page_dir)
+    os.makedirs(tmpl_dir)
+
+    def dump(path, data):
+        with open(path, "w") as f:
+            json.dump(data, f, indent=2)
+
+    manifest = {
+        "name": "whatshername",
+        "title": "Whatshername",
+        "description": "Bright creative-portfolio kit for an artist site.",
+        "author": "Whatshername.uk",
+        "version": "1.0.0",
+        "elementor_version": "3.20.0",
+        "created": datetime.datetime.utcnow().isoformat() + "Z",
+        "thumbnail": False,
+        "site": "https://whatshername.uk",
+        "plugins": [
+            {"name": "Elementor", "plugin": "elementor/elementor",
+             "pluginUri": "https://elementor.com/", "version": "3.20.0"},
+            {"name": "Elementor Pro",
+             "plugin": "elementor-pro/elementor-pro",
+             "pluginUri": "https://elementor.com/pro/", "version": "3.20.0"}],
+        "templates": {},
+        "content": {"page": {}},
+        "wp-content": {},
+        "site-settings": {"globalColors": True, "globalTypography": True,
+                          "settings": True, "themeStyleSettings": True},
+    }
+
+    # pages -> content/page/<id>.json
+    pid = 2001
+    for slug, (title, content) in PAGES.items():
+        doc = wrap(f"{BRAND} — {title}", content, "page")
+        doc["metadata"] = {"template_type": "wp-page"}
+        dump(os.path.join(page_dir, f"{pid}.json"), doc)
+        manifest["content"]["page"][str(pid)] = {
+            "id": pid, "title": f"{BRAND} — {title}", "doc_type": "wp-page",
+            "thumbnail": False, "show_instructions": False}
+        pid += 1
+
+    # theme-builder templates -> templates/<id>.json  (+ display conditions)
+    conditions = {
+        "header": [{"type": "include", "name": "general"}],
+        "footer": [{"type": "include", "name": "general"}],
+        "archive": [{"type": "include", "name": "archive"}],
+        "single-post": [{"type": "include", "name": "singular",
+                         "sub_name": "post"}],
+    }
+    tid = 1001
+    for slug, (title, dtype, content) in THEME_TEMPLATES.items():
+        doc = wrap(f"{BRAND} — {title}", content, dtype)
+        doc["metadata"] = {"template_type": dtype}
+        dump(os.path.join(tmpl_dir, f"{tid}.json"), doc)
+        manifest["templates"][str(tid)] = {
+            "id": tid, "title": f"{BRAND} — {title}", "doc_type": dtype,
+            "type": dtype, "conditions": conditions[slug]}
+        tid += 1
+
+    dump(os.path.join(KIT_DIR, "site-settings.json"), site_settings())
+    dump(os.path.join(KIT_DIR, "manifest.json"), manifest)
+
+    # zip it
+    if os.path.exists(KIT_ZIP):
+        os.remove(KIT_ZIP)
+    with zipfile.ZipFile(KIT_ZIP, "w", zipfile.ZIP_DEFLATED) as z:
+        for root, _, files in os.walk(KIT_DIR):
+            for fn in files:
+                full = os.path.join(root, fn)
+                z.write(full, os.path.relpath(full, KIT_DIR))
+    print("built kit:", KIT_ZIP)
+
+
+build_kit()
 
 print("\nDesign tokens:")
 print(" white", WHITE, "| purple", PURPLE, "| magenta", MAGENTA,
