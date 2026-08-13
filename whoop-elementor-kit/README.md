@@ -43,13 +43,17 @@ online shop for prints and originals.
 
 ```
 whoop-elementor-kit/
-├── preview.html                     ← open in a browser: Home + Gallery + Shop
+├── preview.html                     ← browser preview: Home + Gallery + Shop
+├── preview-blog.html                ← browser preview: Journal + Single Article
 ├── build_kit.py                     ← regenerates the JSON (edit tokens here)
 ├── templates/
 │   ├── home.json                    ← Home page
 │   ├── gallery.json                 ← Gallery / portfolio page
 │   ├── shop.json                    ← Shop page (scaffold — see §5)
+│   ├── blog.json                    ← Journal / blog archive page
+│   ├── single-article.json          ← single post + sidebar + related
 │   ├── section-hero.json            ← reusable gradient hero
+│   ├── section-featured-post.json   ← featured-post block
 │   ├── section-services.json        ← 3-card "what I make" block
 │   ├── section-gradient-band.json   ← studio band with video
 │   └── section-newsletter.json      ← gradient newsletter bar
@@ -65,6 +69,24 @@ whoop-elementor-kit/
   with captions → Load More → newsletter → footer.
 - **Shop:** gradient page header → product cards (image, title, price, Add to
   Cart) → footer. See §5 before going live.
+- **Journal (blog archive):** gradient header → featured post → category tabs
+  → 6 article cards → Load More → newsletter → footer.
+- **Single Article:** gradient title header (with author/date/read-time) →
+  two-column body (article + sidebar of Categories / Recent Posts / Tags) →
+  pull-quote → "More from the journal" related grid → newsletter → footer.
+
+### A note on blog pages & dynamic content
+
+`blog.json` and `single-article.json` are **static layouts** — they show the
+design with example posts baked in. WordPress blogs are normally *dynamic*
+(the theme pulls real posts automatically). Two ways to use these:
+
+1. **Design reference (free Elementor):** use them as the visual blueprint and
+   fill in real content by hand, or match your theme's blog styling to them.
+2. **Fully dynamic (Elementor Pro):** rebuild them in **Theme Builder** as an
+   *Archive* template and a *Single Post* template using the Loop/Posts and
+   dynamic widgets, so every real post uses this design automatically. The
+   colours, fonts and card styling here map straight onto those widgets.
 
 ---
 

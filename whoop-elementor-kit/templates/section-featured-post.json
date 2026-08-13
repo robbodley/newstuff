@@ -1,23 +1,16 @@
 {
   "content": [
     {
-      "id": "1f6abcd",
+      "id": "8cef8f6",
       "elType": "section",
       "settings": {
-        "background_background": "gradient",
-        "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
-        "background_gradient_type": "linear",
-        "background_gradient_angle": {
-          "unit": "deg",
-          "size": 120,
-          "sizes": []
-        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
         "padding": {
           "unit": "px",
           "top": "90",
           "right": "0",
-          "bottom": "90",
+          "bottom": "60",
           "left": "0",
           "isLinked": false
         },
@@ -25,21 +18,53 @@
       },
       "elements": [
         {
-          "id": "ce09479",
+          "id": "74a7183",
           "elType": "column",
           "settings": {
-            "_column_size": 50,
+            "_column_size": 55,
             "_inline_size": null
           },
           "elements": [
             {
-              "id": "16702e0",
+              "id": "97b401a",
               "elType": "widget",
               "settings": {
-                "title": "The Studio",
+                "image": {
+                  "url": "https://via.placeholder.com/900x620/FF6FA5/ffffff?text=Featured",
+                  "id": ""
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                },
+                "image_size": "full"
+              },
+              "elements": [],
+              "widgetType": "image"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "cb798b0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "8d7ed88",
+              "elType": "widget",
+              "settings": {
+                "title": "Featured \u00b7 Studio Notes",
                 "header_size": "h6",
                 "align": "left",
-                "title_color": "rgba(255,255,255,0.85)",
+                "title_color": "#F5179E",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
                 "typography_font_weight": "700",
@@ -59,12 +84,12 @@
               "widgetType": "heading"
             },
             {
-              "id": "0c9ec68",
+              "id": "38d9c5c",
               "elType": "widget",
               "settings": {
                 "space": {
                   "unit": "px",
-                  "size": 14,
+                  "size": 12,
                   "sizes": []
                 }
               },
@@ -72,24 +97,24 @@
               "widgetType": "spacer"
             },
             {
-              "id": "05ca425",
+              "id": "4265236",
               "elType": "widget",
               "settings": {
-                "title": "I make loud, joyful art for people who feel too much.",
+                "title": "Why I paint in the loudest colours I can find",
                 "header_size": "h2",
                 "align": "left",
-                "title_color": "#FFFFFF",
+                "title_color": "#26263A",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
-                "typography_font_weight": "700",
+                "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 38,
+                  "size": 40,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.25,
+                  "size": 1.2,
                   "sizes": []
                 },
                 "typography_letter_spacing": {
@@ -102,7 +127,44 @@
               "widgetType": "heading"
             },
             {
-              "id": "ae8a07d",
+              "id": "f0835f4",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "d1eaa44",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>A long read on colour, chaos and process \u2014 and why restraint has never really been my thing.</p>",
+                "align": "left",
+                "text_color": "#6E6E80",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "e69c319",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -115,23 +177,23 @@
               "widgetType": "spacer"
             },
             {
-              "id": "5df325f",
+              "id": "af61bcd",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Every piece starts as a feeling and ends as colour. Watch a short film from inside the studio.</p>",
+                "editor": "<p>By Whatshername&nbsp;&nbsp;\u00b7&nbsp;&nbsp;13 Aug 2026&nbsp;&nbsp;\u00b7&nbsp;&nbsp;6 min read</p>",
                 "align": "left",
-                "text_color": "rgba(255,255,255,0.9)",
+                "text_color": "#9A9AAB",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 18,
+                  "size": 14,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.7,
+                  "size": 1.4,
                   "sizes": []
                 }
               },
@@ -139,12 +201,12 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "74358fe",
+              "id": "914bf85",
               "elType": "widget",
               "settings": {
                 "space": {
                   "unit": "px",
-                  "size": 24,
+                  "size": 22,
                   "sizes": []
                 }
               },
@@ -152,10 +214,10 @@
               "widgetType": "spacer"
             },
             {
-              "id": "dbe9d68",
+              "id": "bb6c92e",
               "elType": "widget",
               "settings": {
-                "text": "About the Artist",
+                "text": "Read the Article",
                 "align": "left",
                 "link": {
                   "url": "#",
@@ -178,7 +240,7 @@
                   "left": "40",
                   "isLinked": false
                 },
-                "button_text_color": "#9C1AE6",
+                "button_text_color": "#FFFFFF",
                 "typography_typography": "custom",
                 "typography_font_family": "Poppins",
                 "typography_font_weight": "600",
@@ -193,47 +255,10 @@
                   "size": 0.5,
                   "sizes": []
                 },
-                "background_color": "#FFFFFF"
+                "background_color": "#F5179E"
               },
               "elements": [],
               "widgetType": "button"
-            }
-          ],
-          "isInner": false
-        },
-        {
-          "id": "d36c05d",
-          "elType": "column",
-          "settings": {
-            "_column_size": 50,
-            "_inline_size": null
-          },
-          "elements": [
-            {
-              "id": "698646d",
-              "elType": "widget",
-              "settings": {
-                "video_type": "youtube",
-                "youtube_url": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
-                "show_image_overlay": "yes",
-                "image_overlay": {
-                  "url": "https://via.placeholder.com/800x500/7B2FF7/ffffff?text=Studio+Film",
-                  "id": ""
-                },
-                "lightbox": "yes",
-                "aspect_ratio": "169",
-                "play_icon_color": "#FFFFFF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "20",
-                  "right": "20",
-                  "bottom": "20",
-                  "left": "20",
-                  "isLinked": true
-                }
-              },
-              "elements": [],
-              "widgetType": "video"
             }
           ],
           "isInner": false
@@ -244,6 +269,6 @@
   ],
   "page_settings": {},
   "version": "0.4",
-  "title": "Whatshername \u2014 Gradient Band",
+  "title": "Whatshername \u2014 Featured Post",
   "type": "section"
 }

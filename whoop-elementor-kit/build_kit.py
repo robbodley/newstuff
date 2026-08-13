@@ -206,8 +206,9 @@ def s_nav():
                            26, 1, -0.5)], 25)
     menu = column([paragraph(
         "Home&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;Gallery"
-        "&nbsp;&nbsp;&nbsp;Shop&nbsp;&nbsp;&nbsp;Contact",
-        HEAD_DARK, "center", 15, weight=500)], 50)
+        "&nbsp;&nbsp;&nbsp;Journal&nbsp;&nbsp;&nbsp;Shop"
+        "&nbsp;&nbsp;&nbsp;Contact",
+        HEAD_DARK, "center", 14, weight=500)], 50)
     cta = column([button("Commission", align="right", small=True)], 25)
     return section([logo, menu, cta],
                    {**bg(WHITE, 24, 24),
@@ -507,6 +508,224 @@ def s_shop_body():
 
 
 # ===========================================================================
+# BLOG / JOURNAL PAGES
+# ===========================================================================
+def article_card(i, cat, title, excerpt, meta, col_size=33, label=None):
+    return column([
+        img(tile_url(i, 640, 440, label or cat), rounded=14),
+        spacer(16),
+        eyebrow(cat, MAGENTA, "left"),
+        spacer(8),
+        heading(title, "h4", HEAD_DARK, "left", FONT_HEAD, 700, 22, 1.3,
+                -0.3),
+        spacer(8),
+        paragraph(excerpt, BODY_MUTED, "left", 15, 1.7),
+        spacer(10),
+        paragraph(meta, "#9A9AAB", "left", 13, 1.4),
+        spacer(24),
+    ], col_size)
+
+
+def s_featured_post():
+    img_col = column([img(tile_url(6, 900, 620, "Featured"), 18)], 55)
+    text_col = column([
+        eyebrow("Featured · Studio Notes", MAGENTA, "left"),
+        spacer(12),
+        heading("Why I paint in the loudest colours I can find", "h2",
+                HEAD_DARK, "left", FONT_HEAD, 800, 40, 1.2, -0.5),
+        spacer(14),
+        paragraph("A long read on colour, chaos and process — and why "
+                  "restraint has never really been my thing.",
+                  BODY_MUTED, "left", 18, 1.75),
+        spacer(16),
+        paragraph("By Whatshername&nbsp;&nbsp;·&nbsp;&nbsp;13 Aug 2026"
+                  "&nbsp;&nbsp;·&nbsp;&nbsp;6 min read",
+                  "#9A9AAB", "left", 14, 1.4),
+        spacer(22),
+        button("Read the Article", align="left", link="#"),
+    ], 45)
+    return section([img_col, text_col],
+                   {**bg(WHITE, 90, 60), "gap": "wider"})
+
+
+def s_blog_grid():
+    tabs = section([column([paragraph(
+        '<strong style="color:%s">All</strong>&nbsp;&nbsp;&nbsp;&nbsp;'
+        'Studio&nbsp;Notes&nbsp;&nbsp;&nbsp;&nbsp;Shows&nbsp;&nbsp;&nbsp;&nbsp;'
+        'Process&nbsp;&nbsp;&nbsp;&nbsp;Prints&nbsp;&nbsp;&nbsp;&nbsp;News'
+        % PURPLE, BODY_MUTED, "center", 16, 1.5, weight=600)])], inner=True)
+
+    posts = [
+        ("Studio Notes", "The colours I keep coming back to",
+         "Five pigments that show up in almost everything I make, and why.",
+         "11 Aug 2026 · 4 min"),
+        ("Shows", "Behind the scenes of &ldquo;Loud Quiet&rdquo;",
+         "Hanging a full room of large canvases the night before opening.",
+         "02 Aug 2026 · 5 min"),
+        ("Process", "How a painting actually starts",
+         "From a blurry feeling to a first mark — my messy beginning.",
+         "24 Jul 2026 · 6 min"),
+        ("Prints", "What &lsquo;limited edition&rsquo; really means",
+         "A plain-English guide to editions, numbering and archival prints.",
+         "15 Jul 2026 · 3 min"),
+        ("News", "New murals coming to the high street",
+         "Three commissions announced for the autumn — here's the plan.",
+         "03 Jul 2026 · 2 min"),
+        ("Studio Notes", "On making loud art quietly",
+         "Why the noisiest paintings come from the calmest mornings.",
+         "21 Jun 2026 · 4 min"),
+    ]
+    rows, row = [], []
+    for i, (cat, title, exc, meta) in enumerate(posts):
+        row.append(article_card(i + 1, cat, title, exc, meta, 33))
+        if len(row) == 3:
+            rows.append(section(row, {"gap": "extended"}, inner=True))
+            row = []
+    if row:
+        rows.append(section(row, {"gap": "extended"}, inner=True))
+    load = column([spacer(14), button("Load More Articles", link="#")])
+    return section([column([tabs, spacer(40)] + rows + [load])],
+                   bg(BG_LIGHT, 90, 90))
+
+
+# ---- single article ----
+def s_article_hero():
+    col = column([
+        eyebrow("Studio Notes", "rgba(255,255,255,0.85)"),
+        spacer(14),
+        heading("Street art, colour theory, and painting out loud", "h1",
+                WHITE, "center", FONT_HEAD, 800, 52, 1.12, -1, mobile=34),
+        spacer(16),
+        paragraph("By Whatshername&nbsp;&nbsp;·&nbsp;&nbsp;13 August 2026"
+                  "&nbsp;&nbsp;·&nbsp;&nbsp;6 min read",
+                  "rgba(255,255,255,0.9)", "center", 15, 1.5),
+    ])
+    return section([col], gradient_bg(GRAD_A, GRAD_B, 135, 110, 90))
+
+
+def quote_block(text, who):
+    inner = [
+        heading(text, "h4", HEAD_DARK, "left", FONT_HEAD, 600, 24, 1.5, -0.3,
+                extra={"typography_font_style": "italic"}),
+        spacer(10),
+        paragraph(who, MAGENTA, "left", 14, 1.4, weight=700),
+    ]
+    s = {"background_background": "classic", "background_color": BG_LIGHT,
+         "border_radius": radius(14), "padding": px(28, 32, 28, 32),
+         "border_border": "solid", "border_width": px(0, 0, 0, 5),
+         "border_color": MAGENTA}
+    return section([column(inner)], s, inner=True)
+
+
+def mini_post(i, title, date):
+    return section([
+        column([img(tile_url(i, 200, 200, "·"), 10)], 30),
+        column([
+            heading(title, "h6", HEAD_DARK, "left", FONT_HEAD, 600, 15, 1.35,
+                    -0.2),
+            paragraph(date, "#9A9AAB", "left", 12, 1.3),
+        ], 70),
+    ], {"gap": "narrow"}, inner=True)
+
+
+def sidebar_card(title, elements):
+    kids = [heading(title, "h5", HEAD_DARK, "left", FONT_HEAD, 700, 18, 1.3,
+                    -0.3), spacer(16)] + elements
+    return section([column(kids)], card(WHITE, 26), inner=True)
+
+
+def s_article_body():
+    p = BODY_MUTED
+    main = column([
+        img(tile_url(2, 960, 560, "Featured+Image"), 18),
+        spacer(28),
+        paragraph("There's a myth that good taste means restraint. I've never "
+                  "believed it. The work that moves me is the work that isn't "
+                  "afraid to be too much — too bright, too fast, too honest.",
+                  p, "left", 18, 1.85),
+        paragraph("This piece started, like most of them, with a feeling I "
+                  "couldn't name. So I reached for the loudest colour on the "
+                  "table and started making marks until the feeling had a "
+                  "shape.", p, "left", 18, 1.85),
+        spacer(14),
+        quote_block("&ldquo;Colour is the place where our brain and the "
+                    "universe meet.&rdquo;", "— a line I keep above the easel"),
+        spacer(20),
+        heading("Colour as a language", "h3", HEAD_DARK, "left", FONT_HEAD,
+                700, 30, 1.25, -0.5),
+        spacer(10),
+        paragraph("Every hue carries a mood. Magenta shouts, cyan hums, "
+                  "yellow laughs. When I put them next to each other, I'm "
+                  "really writing a sentence — the composition is just "
+                  "grammar.", p, "left", 18, 1.85),
+        spacer(10),
+        img(tile_url(4, 960, 520, "In+the+Studio"), 18),
+        spacer(24),
+        paragraph("By the end, the painting knows more than I did when I "
+                  "started. That's the whole point of making it.",
+                  p, "left", 18, 1.85),
+        spacer(22),
+        paragraph('<strong style="color:%s">Filed under:</strong> '
+                  '&nbsp;Studio Notes&nbsp;&nbsp;·&nbsp;&nbsp;Process'
+                  '&nbsp;&nbsp;·&nbsp;&nbsp;Colour' % HEAD_DARK,
+                  BODY_MUTED, "left", 14, 1.6),
+    ], 64)
+
+    cats = []
+    for name in ["Studio Notes (12)", "Shows (6)", "Process (9)",
+                 "Prints (4)", "News (7)"]:
+        cats.append(paragraph(
+            f'<a href="#" style="color:{HEAD_DARK};text-decoration:none">'
+            f'{name}</a>', HEAD_DARK, "left", 15, 2.1))
+
+    recents = [
+        mini_post(1, "The colours I keep coming back to", "11 Aug 2026"),
+        spacer(16),
+        mini_post(3, "How a painting actually starts", "24 Jul 2026"),
+        spacer(16),
+        mini_post(5, "New murals coming to the high street", "03 Jul 2026"),
+    ]
+
+    tags = [paragraph(
+        "&nbsp;Colour&nbsp; &nbsp;Acrylic&nbsp; &nbsp;Studio&nbsp; "
+        "&nbsp;Prints&nbsp; &nbsp;Shows&nbsp; &nbsp;Process&nbsp;",
+        PURPLE, "left", 14, 2.4, weight=600)]
+
+    sidebar = column([
+        sidebar_card("Categories", cats),
+        spacer(24),
+        sidebar_card("Recent Posts", recents),
+        spacer(24),
+        sidebar_card("Tags", tags),
+    ], 32)
+    return section([main, sidebar], {**bg(WHITE, 80, 80), "gap": "wider"})
+
+
+def s_related():
+    head = column([
+        eyebrow("Keep Reading"),
+        spacer(12),
+        heading("More from the journal", "h2", HEAD_DARK, "center",
+                FONT_HEAD, 700, 40, 1.15, -0.5),
+    ])
+    posts = [
+        ("Studio Notes", "The colours I keep coming back to",
+         "Five pigments that show up in almost everything I make.",
+         "11 Aug 2026 · 4 min"),
+        ("Shows", "Behind the scenes of &ldquo;Loud Quiet&rdquo;",
+         "Hanging a full room of canvases the night before opening.",
+         "02 Aug 2026 · 5 min"),
+        ("Process", "How a painting actually starts",
+         "From a blurry feeling to a first mark on the canvas.",
+         "24 Jul 2026 · 6 min"),
+    ]
+    cards = section([article_card(i + 7, c, t, e, m, 33)
+                     for i, (c, t, e, m) in enumerate(posts)],
+                    {"gap": "extended"}, inner=True)
+    return section([column([head, spacer(44), cards])], bg(BG_LIGHT, 90, 90))
+
+
+# ===========================================================================
 # ASSEMBLE + WRITE
 # ===========================================================================
 def write(name, data):
@@ -542,8 +761,25 @@ write("shop.json", wrap(f"{BRAND} — Shop", [
     s_newsletter(), s_footer(),
 ], "page"))
 
+# Blog / Journal archive
+write("blog.json", wrap(f"{BRAND} — Journal", [
+    s_nav(),
+    s_page_header("The Journal", "Studio Journal",
+                  "Essays, studio notes and news from behind the canvas."),
+    s_featured_post(), s_blog_grid(),
+    s_newsletter(), s_footer(),
+], "page"))
+
+# Single article
+write("single-article.json", wrap(f"{BRAND} — Article", [
+    s_nav(), s_article_hero(), s_article_body(), s_related(),
+    s_newsletter(), s_footer(),
+], "page"))
+
 # Reusable section blocks
 write("section-hero.json", wrap(f"{BRAND} — Hero", [s_hero()], "section"))
+write("section-featured-post.json", wrap(f"{BRAND} — Featured Post",
+                                         [s_featured_post()], "section"))
 write("section-services.json", wrap(f"{BRAND} — Services",
                                     [s_services()], "section"))
 write("section-gradient-band.json", wrap(f"{BRAND} — Gradient Band",

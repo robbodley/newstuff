@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "eb16f42",
+      "id": "d86c745",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
@@ -24,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "4829d3e",
+          "id": "39ce48a",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,7 +32,7 @@
           },
           "elements": [
             {
-              "id": "e6d4458",
+              "id": "0c74d14",
               "elType": "widget",
               "settings": {
                 "title": "Contemporary Artist",
@@ -58,7 +58,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "2e58394",
+              "id": "e6406d0",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -71,7 +71,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "a713401",
+              "id": "38a6532",
               "elType": "widget",
               "settings": {
                 "title": "Whatshername",
@@ -106,7 +106,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "39977c9",
+              "id": "f0bed89",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -119,7 +119,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "cbec0cb",
+              "id": "6232c49",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Bold, colour-drenched paintings and prints exploring identity, motion and the noise of modern life.</p>",
@@ -143,7 +143,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "1d2a5bf",
+              "id": "28aa2fd",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -156,7 +156,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "946a5c8",
+              "id": "e796285",
               "elType": "widget",
               "settings": {
                 "text": "View the Gallery",
