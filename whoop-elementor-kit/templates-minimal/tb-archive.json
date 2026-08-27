@@ -1,0 +1,179 @@
+{
+  "content": [
+    {
+      "id": "a8467b1",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "20",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "8e68a14",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "d16b2a3",
+              "elType": "widget",
+              "settings": {
+                "title": "Studio Journal",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "#8A8A8A",
+                "typography_typography": "custom",
+                "typography_font_family": "Courier Prime",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 4,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "40d9174",
+              "elType": "widget",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            },
+            {
+              "id": "b0dfb6e",
+              "elType": "widget",
+              "settings": {
+                "title": "Journal",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#2B2B2B",
+                "typography_typography": "custom",
+                "typography_font_family": "Special Elite",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 54,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "ec7369a",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "0",
+          "bottom": "90",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 760,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "2697f61",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "1b6c2b0",
+              "elType": "widget",
+              "settings": {
+                "_skin": "classic",
+                "classic_columns": "1",
+                "classic_show_excerpt": "yes",
+                "classic_excerpt_length": 22,
+                "classic_meta_data": [
+                  "date"
+                ],
+                "classic_read_more_text": "Read more",
+                "title_color": "#2B2B2B",
+                "excerpt_color": "#4A4A4A",
+                "meta_color": "#8A8A8A",
+                "title_typography_typography_typography": "custom",
+                "title_typography_typography_font_family": "Special Elite",
+                "title_typography_typography_font_weight": "400",
+                "title_typography_typography_font_size": {
+                  "unit": "px",
+                  "size": 26,
+                  "sizes": []
+                },
+                "title_typography_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "archive-posts"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {},
+  "version": "0.4",
+  "title": "Whatshername \u2014 Journal Archive",
+  "type": "archive"
+}

@@ -10,6 +10,38 @@ Home, About, Gallery, Shop and Contact.
 
 ---
 
+## ⭐ Two style options in this repo
+
+There are **two complete kits** here — pick one:
+
+| Kit | Vibe | Import file | Generator | Preview |
+|-----|------|-------------|-----------|---------|
+| **Vibrant** (original) | Bright, gradient, Syne/Manrope | `whatshername-kit.zip` | `build_kit.py` | `preview*.html` |
+| **Minimal** (current pick) | Editorial, typewriter, light-red accent, framed art on white | `whatshername-minimal-kit.zip` | `build_minimal.py` | `preview-minimal.html` |
+
+The **Minimal** kit is the direction chosen for the artist site: white space,
+hairline dividers, a circular red marker, **Special Elite + Courier Prime**
+typewriter fonts, a single light-red accent (`#E0574F` / text `#BF3B34`), and
+artwork **framed on white**. Import it exactly like the vibrant kit (Elementor →
+Tools → **Import / Export Kit**), then follow the setup steps below. Its
+templates live in `templates-minimal/`.
+
+### Adding the real artwork
+
+Template JSON never contains the images — you add them in WordPress:
+
+1. **Media → Add New**, upload the paintings.
+2. Edit a page in Elementor, click each framed **Image** widget, and choose the
+   painting from the Media Library. (The kit ships with neutral grey
+   placeholders so nothing looks broken before you swap them.)
+3. For the **Gallery**, duplicate a framed item for each new piece and update
+   the title / medium / price caption underneath.
+
+The colourful stand-ins in `preview-minimal.html` are just CSS — they show how
+loud artwork looks inside the quiet frame; your real paintings replace them.
+
+---
+
 ## 1. Fastest path — import the whole kit in one click
 
 `whatshername-kit.zip` is a native **Elementor Import/Export Kit**.
