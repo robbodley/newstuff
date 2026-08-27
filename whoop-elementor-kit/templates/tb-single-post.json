@@ -1,12 +1,12 @@
 {
   "content": [
     {
-      "id": "e2dd67a",
+      "id": "032d1b8",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
         "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
+        "background_color_b": "#D6148C",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
@@ -24,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "b55a06e",
+          "id": "ff80f7c",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,14 +32,14 @@
           },
           "elements": [
             {
-              "id": "8e33b15",
+              "id": "24dba65",
               "elType": "widget",
               "settings": {
                 "title_tag": "h1",
                 "align": "center",
                 "title_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -61,7 +61,7 @@
               "widgetType": "theme-post-title"
             },
             {
-              "id": "7a4ca0b",
+              "id": "ed1a728",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -74,14 +74,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "3214a55",
+              "id": "7c6436f",
               "elType": "widget",
               "settings": {
                 "align": "center",
                 "text_color": "#FFFFFF",
                 "icon_color": "#FFFFFF",
                 "list_typography_typography_typography": "custom",
-                "list_typography_typography_font_family": "Poppins",
+                "list_typography_typography_font_family": "Manrope",
                 "list_typography_typography_font_weight": "500",
                 "list_typography_typography_font_size": {
                   "unit": "px",
@@ -99,7 +99,7 @@
       "isInner": false
     },
     {
-      "id": "6e5fec5",
+      "id": "1f86367",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -120,7 +120,7 @@
       },
       "elements": [
         {
-          "id": "7038f9c",
+          "id": "5175cec",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -128,7 +128,7 @@
           },
           "elements": [
             {
-              "id": "34ced45",
+              "id": "426b8a9",
               "elType": "widget",
               "settings": {
                 "image_size": "large",
@@ -146,7 +146,7 @@
               "widgetType": "theme-post-featured-image"
             },
             {
-              "id": "b0a4399",
+              "id": "bc4d6b6",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -159,12 +159,12 @@
               "widgetType": "spacer"
             },
             {
-              "id": "f38efd3",
+              "id": "1657c79",
               "elType": "widget",
               "settings": {
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -187,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "303afe0",
+      "id": "47715c1",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -203,7 +203,7 @@
       },
       "elements": [
         {
-          "id": "89dbf1b",
+          "id": "5a5bca5",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -211,15 +211,15 @@
           },
           "elements": [
             {
-              "id": "4c64808",
+              "id": "5a90b20",
               "elType": "widget",
               "settings": {
                 "title": "Keep Reading",
                 "header_size": "h6",
                 "align": "center",
-                "title_color": "#F5179E",
+                "title_color": "#B3117A",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -237,7 +237,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "4513795",
+              "id": "ecc1d70",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -250,7 +250,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "2e006ff",
+              "id": "5839aed",
               "elType": "widget",
               "settings": {
                 "title": "More from the journal",
@@ -258,7 +258,7 @@
                 "align": "center",
                 "title_color": "#26263A",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -280,7 +280,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "efb759e",
+              "id": "ae7044e",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -293,7 +293,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "ee9b6aa",
+              "id": "877eb41",
               "elType": "widget",
               "settings": {
                 "_skin": "classic",
@@ -313,9 +313,9 @@
                 ],
                 "title_color": "#26263A",
                 "excerpt_color": "#6E6E80",
-                "meta_color": "#9A9AAB",
+                "meta_color": "#5E5E6E",
                 "title_typography_typography_typography": "custom",
-                "title_typography_typography_font_family": "Poppins",
+                "title_typography_typography_font_family": "Syne",
                 "title_typography_typography_font_weight": "700",
                 "title_typography_typography_font_size": {
                   "unit": "px",

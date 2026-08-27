@@ -1,12 +1,12 @@
 {
   "content": [
     {
-      "id": "737c0fc",
+      "id": "008b6f3",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
         "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
+        "background_color_b": "#D6148C",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
@@ -24,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "dfc8640",
+          "id": "dc90524",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,7 +32,7 @@
           },
           "elements": [
             {
-              "id": "b2da551",
+              "id": "4839e73",
               "elType": "widget",
               "settings": {
                 "title": "The Journal",
@@ -40,7 +40,7 @@
                 "align": "center",
                 "title_color": "rgba(255,255,255,0.85)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -58,7 +58,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "e92da94",
+              "id": "f14cea7",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -71,7 +71,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "03477ff",
+              "id": "8168c82",
               "elType": "widget",
               "settings": {
                 "title": "Studio Journal",
@@ -79,7 +79,7 @@
                 "align": "center",
                 "title_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -106,7 +106,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "9477015",
+              "id": "21bfb29",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -119,14 +119,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "0fd8dd0",
+              "id": "bcb0017",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Essays, studio notes and news from behind the canvas.</p>",
                 "align": "center",
                 "text_color": "rgba(255,255,255,0.9)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -149,7 +149,7 @@
       "isInner": false
     },
     {
-      "id": "8e65fcf",
+      "id": "9de2328",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -166,7 +166,7 @@
       },
       "elements": [
         {
-          "id": "825a92e",
+          "id": "16787d9",
           "elType": "column",
           "settings": {
             "_column_size": 55,
@@ -174,7 +174,7 @@
           },
           "elements": [
             {
-              "id": "c8a5467",
+              "id": "6e8aaff",
               "elType": "widget",
               "settings": {
                 "image": {
@@ -198,7 +198,7 @@
           "isInner": false
         },
         {
-          "id": "8cd6877",
+          "id": "4891220",
           "elType": "column",
           "settings": {
             "_column_size": 45,
@@ -206,15 +206,15 @@
           },
           "elements": [
             {
-              "id": "e7d375a",
+              "id": "cc7351d",
               "elType": "widget",
               "settings": {
                 "title": "Featured \u00b7 Studio Notes",
                 "header_size": "h6",
                 "align": "left",
-                "title_color": "#F5179E",
+                "title_color": "#B3117A",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -232,7 +232,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "5ebc31c",
+              "id": "d5ce019",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -245,7 +245,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "8d1daca",
+              "id": "e8feb99",
               "elType": "widget",
               "settings": {
                 "title": "Why I paint in the loudest colours I can find",
@@ -253,7 +253,7 @@
                 "align": "left",
                 "title_color": "#26263A",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -275,7 +275,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "bc4644e",
+              "id": "0e8e419",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -288,14 +288,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "b478dc3",
+              "id": "792edf6",
               "elType": "widget",
               "settings": {
                 "editor": "<p>A long read on colour, chaos and process \u2014 and why restraint has never really been my thing.</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -312,7 +312,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "4dba931",
+              "id": "edc435b",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -325,14 +325,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "532fc0c",
+              "id": "a38fc2e",
               "elType": "widget",
               "settings": {
                 "editor": "<p>By Whatshername&nbsp;&nbsp;\u00b7&nbsp;&nbsp;13 Aug 2026&nbsp;&nbsp;\u00b7&nbsp;&nbsp;6 min read</p>",
                 "align": "left",
-                "text_color": "#9A9AAB",
+                "text_color": "#5E5E6E",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -349,7 +349,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "e76bd08",
+              "id": "304942e",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -362,7 +362,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "53c9d96",
+              "id": "2add300",
               "elType": "widget",
               "settings": {
                 "text": "Read the Article",
@@ -390,7 +390,7 @@
                 },
                 "button_text_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "600",
                 "typography_font_size": {
                   "unit": "px",
@@ -403,7 +403,7 @@
                   "size": 0.5,
                   "sizes": []
                 },
-                "background_color": "#F5179E"
+                "background_color": "#B3117A"
               },
               "elements": [],
               "widgetType": "button"
@@ -415,7 +415,7 @@
       "isInner": false
     },
     {
-      "id": "a6a72fd",
+      "id": "f83c639",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -431,7 +431,7 @@
       },
       "elements": [
         {
-          "id": "7a526df",
+          "id": "dca7086",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -439,12 +439,12 @@
           },
           "elements": [
             {
-              "id": "f683152",
+              "id": "2bde835",
               "elType": "section",
               "settings": {},
               "elements": [
                 {
-                  "id": "b45cb04",
+                  "id": "90175d5",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -452,14 +452,14 @@
                   },
                   "elements": [
                     {
-                      "id": "f31a61f",
+                      "id": "6cce246",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><strong style=\"color:#9C1AE6\">All</strong>&nbsp;&nbsp;&nbsp;&nbsp;Studio&nbsp;Notes&nbsp;&nbsp;&nbsp;&nbsp;Shows&nbsp;&nbsp;&nbsp;&nbsp;Process&nbsp;&nbsp;&nbsp;&nbsp;Prints&nbsp;&nbsp;&nbsp;&nbsp;News</p>",
                         "align": "center",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "600",
                         "typography_font_size": {
                           "unit": "px",
@@ -482,7 +482,7 @@
               "isInner": true
             },
             {
-              "id": "51440d0",
+              "id": "90c1e8e",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -495,14 +495,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "76c3b03",
+              "id": "0ecba69",
               "elType": "section",
               "settings": {
                 "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "d5bc5eb",
+                  "id": "3f08962",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -510,7 +510,7 @@
                   },
                   "elements": [
                     {
-                      "id": "d67b23d",
+                      "id": "3ab31a8",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -531,7 +531,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "6926e8e",
+                      "id": "e0c721e",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -544,15 +544,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "2d07d57",
+                      "id": "e8c00c3",
                       "elType": "widget",
                       "settings": {
                         "title": "Studio Notes",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -570,7 +570,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "7648c32",
+                      "id": "7be14cd",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -583,7 +583,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "b526843",
+                      "id": "4638985",
                       "elType": "widget",
                       "settings": {
                         "title": "The colours I keep coming back to",
@@ -591,7 +591,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -613,7 +613,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "25dd6af",
+                      "id": "8eb391e",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -626,14 +626,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "222d3aa",
+                      "id": "8d55338",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Five pigments that show up in almost everything I make, and why.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -650,7 +650,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "c8c7e27",
+                      "id": "2fe0456",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -663,14 +663,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "bdd3b9f",
+                      "id": "2d934d0",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>11 Aug 2026 \u00b7 4 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -687,7 +687,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "fb919a1",
+                      "id": "25c1039",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -703,7 +703,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "338d55d",
+                  "id": "b817dda",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -711,7 +711,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3fdff7d",
+                      "id": "4407f56",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -732,7 +732,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "7cc1272",
+                      "id": "28edbf6",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -745,15 +745,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "2d6d769",
+                      "id": "4c79999",
                       "elType": "widget",
                       "settings": {
                         "title": "Shows",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -771,7 +771,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "89f2688",
+                      "id": "8fbdd17",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -784,7 +784,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "a8d954c",
+                      "id": "90b9f35",
                       "elType": "widget",
                       "settings": {
                         "title": "Behind the scenes of &ldquo;Loud Quiet&rdquo;",
@@ -792,7 +792,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -814,7 +814,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "c20d7bf",
+                      "id": "b0a2895",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -827,14 +827,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "e5ddec7",
+                      "id": "941f07e",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Hanging a full room of large canvases the night before opening.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -851,7 +851,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "b7092f8",
+                      "id": "5490c0e",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -864,14 +864,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "62a7f25",
+                      "id": "eb64fe3",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>02 Aug 2026 \u00b7 5 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -888,7 +888,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "32d1a18",
+                      "id": "d70e033",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -904,7 +904,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "2ef684e",
+                  "id": "0341c49",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -912,7 +912,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3981a99",
+                      "id": "153baa3",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -933,7 +933,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "31ca5a4",
+                      "id": "992d23e",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -946,15 +946,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "19e7b75",
+                      "id": "5c998a2",
                       "elType": "widget",
                       "settings": {
                         "title": "Process",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -972,7 +972,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "a799700",
+                      "id": "2072a95",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -985,7 +985,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "fdc124d",
+                      "id": "278d778",
                       "elType": "widget",
                       "settings": {
                         "title": "How a painting actually starts",
@@ -993,7 +993,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1015,7 +1015,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "195a8b0",
+                      "id": "d916238",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1028,14 +1028,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "d875ca2",
+                      "id": "c75e864",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>From a blurry feeling to a first mark \u2014 my messy beginning.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1052,7 +1052,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "b7371e9",
+                      "id": "dd201f2",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1065,14 +1065,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "24ad164",
+                      "id": "61425f5",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>24 Jul 2026 \u00b7 6 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1089,7 +1089,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "44e022b",
+                      "id": "b9da879",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1108,14 +1108,14 @@
               "isInner": true
             },
             {
-              "id": "a0b320c",
+              "id": "12c729c",
               "elType": "section",
               "settings": {
                 "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "a48179f",
+                  "id": "ab6f4f2",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1123,7 +1123,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e21f0af",
+                      "id": "3a057ef",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -1144,7 +1144,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "6466cc2",
+                      "id": "ab03be6",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1157,15 +1157,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "c326916",
+                      "id": "af12e4e",
                       "elType": "widget",
                       "settings": {
                         "title": "Prints",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1183,7 +1183,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "eff44a6",
+                      "id": "feb20f0",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1196,7 +1196,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "0b73735",
+                      "id": "f08c0d4",
                       "elType": "widget",
                       "settings": {
                         "title": "What &lsquo;limited edition&rsquo; really means",
@@ -1204,7 +1204,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1226,7 +1226,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "41b167c",
+                      "id": "68d1f02",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1239,14 +1239,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "7467f17",
+                      "id": "2c084bb",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>A plain-English guide to editions, numbering and archival prints.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1263,7 +1263,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "e351579",
+                      "id": "c9ebe69",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1276,14 +1276,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "4c9c401",
+                      "id": "5e127b7",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>15 Jul 2026 \u00b7 3 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1300,7 +1300,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "c8e2b1d",
+                      "id": "3e6061b",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1316,7 +1316,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "efa9116",
+                  "id": "6e75479",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1324,7 +1324,7 @@
                   },
                   "elements": [
                     {
-                      "id": "716017b",
+                      "id": "71d7006",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -1345,7 +1345,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "0385dc2",
+                      "id": "2d24b48",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1358,15 +1358,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "2ee04c4",
+                      "id": "b368cd6",
                       "elType": "widget",
                       "settings": {
                         "title": "News",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1384,7 +1384,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "9976da5",
+                      "id": "0b1454a",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1397,7 +1397,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "be6efd6",
+                      "id": "f1e75c6",
                       "elType": "widget",
                       "settings": {
                         "title": "New murals coming to the high street",
@@ -1405,7 +1405,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1427,7 +1427,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "ed8a10d",
+                      "id": "3e8c4b2",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1440,14 +1440,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "502db3c",
+                      "id": "38b1a02",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Three commissions announced for the autumn \u2014 here's the plan.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1464,7 +1464,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "9f5bf7c",
+                      "id": "f39f006",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1477,14 +1477,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "cad7178",
+                      "id": "18e0e41",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>03 Jul 2026 \u00b7 2 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1501,7 +1501,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "01d9e19",
+                      "id": "b70582e",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1517,7 +1517,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "dab3a1c",
+                  "id": "6b62415",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1525,7 +1525,7 @@
                   },
                   "elements": [
                     {
-                      "id": "a012e6e",
+                      "id": "baf3ee5",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -1546,7 +1546,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "e961ef5",
+                      "id": "7f9437d",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1559,15 +1559,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "0ff7957",
+                      "id": "7c02c35",
                       "elType": "widget",
                       "settings": {
                         "title": "Studio Notes",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1585,7 +1585,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "32f2029",
+                      "id": "38c74b8",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1598,7 +1598,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "57296e0",
+                      "id": "99b1163",
                       "elType": "widget",
                       "settings": {
                         "title": "On making loud art quietly",
@@ -1606,7 +1606,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1628,7 +1628,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "5ff1752",
+                      "id": "8a4fdd6",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1641,14 +1641,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "12bfaa9",
+                      "id": "5444829",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Why the noisiest paintings come from the calmest mornings.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1665,7 +1665,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "0bbeb47",
+                      "id": "fbc51c6",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1678,14 +1678,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "aa11e03",
+                      "id": "d6dc208",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>21 Jun 2026 \u00b7 4 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1702,7 +1702,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "1dd04ab",
+                      "id": "cb2bba8",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1721,7 +1721,7 @@
               "isInner": true
             },
             {
-              "id": "9b4fbd1",
+              "id": "a7a7a63",
               "elType": "column",
               "settings": {
                 "_column_size": 100,
@@ -1729,7 +1729,7 @@
               },
               "elements": [
                 {
-                  "id": "3440a17",
+                  "id": "43a641d",
                   "elType": "widget",
                   "settings": {
                     "space": {
@@ -1742,7 +1742,7 @@
                   "widgetType": "spacer"
                 },
                 {
-                  "id": "48823ac",
+                  "id": "8fd7f69",
                   "elType": "widget",
                   "settings": {
                     "text": "Load More Articles",
@@ -1770,7 +1770,7 @@
                     },
                     "button_text_color": "#FFFFFF",
                     "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
+                    "typography_font_family": "Syne",
                     "typography_font_weight": "600",
                     "typography_font_size": {
                       "unit": "px",
@@ -1783,7 +1783,7 @@
                       "size": 0.5,
                       "sizes": []
                     },
-                    "background_color": "#F5179E"
+                    "background_color": "#B3117A"
                   },
                   "elements": [],
                   "widgetType": "button"

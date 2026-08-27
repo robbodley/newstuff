@@ -24,18 +24,23 @@ os.makedirs(OUT, exist_ok=True)
 WHITE       = "#FFFFFF"
 BG_LIGHT    = "#F7F7FB"   # very light section background
 HEAD_DARK   = "#26263A"   # near-black heading charcoal
-BODY_MUTED  = "#6E6E80"   # body / secondary text
-PURPLE      = "#9C1AE6"   # vivid violet (brand primary)
-MAGENTA     = "#F5179E"   # hot magenta (accent / buttons)
+BODY_MUTED  = "#6E6E80"   # body / secondary text (AA on white: 4.99)
+META        = "#5E5E6E"   # small print / dates (AA 6.4 — was #9A9AAB @ 2.8)
+PURPLE      = "#9C1AE6"   # vivid violet (brand primary, AA 5.67 on white)
+MAGENTA     = "#B3117A"   # deep magenta for TEXT/buttons (AA 6.4 on white)
+MAGENTA_POP = "#F5179E"   # bright magenta — decorative / large text only (logo)
 GRAD_A      = "#7B2FF7"   # gradient start (indigo-purple)
-GRAD_B      = "#F0139C"   # gradient end (magenta)
+GRAD_B      = "#D6148C"   # gradient end, tuned so white text passes AA (4.84)
 CYAN        = "#12D8E8"
 YELLOW      = "#F6E400"
 BLUE        = "#4B2FF7"
 BORDER      = "#ECECF3"
 
-FONT_HEAD = "Poppins"     # bold geometric headings (Google Font)
-FONT_BODY = "Poppins"     # body (lighter weights)
+# Font pairing recommended by ui-ux-pro-max for art galleries / creative
+# studios ("Fashion Forward"). To restore the original WHOOP-match look,
+# set both of these back to "Poppins" and re-run.
+FONT_HEAD = "Syne"        # expressive display headings (Google Font)
+FONT_BODY = "Manrope"     # clean, readable body (Google Font)
 
 # colourful tile palette for gallery/portfolio placeholders
 TILE_COLORS = ["9C1AE6", "F5179E", "12D8E8", "F6E400", "4B2FF7", "12D8B0",
@@ -521,7 +526,7 @@ def article_card(i, cat, title, excerpt, meta, col_size=33, label=None):
         spacer(8),
         paragraph(excerpt, BODY_MUTED, "left", 15, 1.7),
         spacer(10),
-        paragraph(meta, "#9A9AAB", "left", 13, 1.4),
+        paragraph(meta, META, "left", 13, 1.4),
         spacer(24),
     ], col_size)
 
@@ -540,7 +545,7 @@ def s_featured_post():
         spacer(16),
         paragraph("By Whatshername&nbsp;&nbsp;·&nbsp;&nbsp;13 Aug 2026"
                   "&nbsp;&nbsp;·&nbsp;&nbsp;6 min read",
-                  "#9A9AAB", "left", 14, 1.4),
+                  META, "left", 14, 1.4),
         spacer(22),
         button("Read the Article", align="left", link="#"),
     ], 45)
@@ -623,7 +628,7 @@ def mini_post(i, title, date):
         column([
             heading(title, "h6", HEAD_DARK, "left", FONT_HEAD, 600, 15, 1.35,
                     -0.2),
-            paragraph(date, "#9A9AAB", "left", 12, 1.3),
+            paragraph(date, META, "left", 12, 1.3),
         ], 70),
     ], {"gap": "narrow"}, inner=True)
 
@@ -758,7 +763,7 @@ def w_archive_posts():
          "classic_meta_data": ["date", "comments"],
          "classic_read_more_text": "Read more →",
          "title_color": HEAD_DARK, "excerpt_color": BODY_MUTED,
-         "meta_color": "#9A9AAB"}
+         "meta_color": META}
     s.update({f"title_typography_{k}": v
               for k, v in typo(FONT_HEAD, 700, 22, 1.3).items()})
     return widget("archive-posts", s)
@@ -797,14 +802,14 @@ def w_related_posts():
          "classic_show_excerpt": "yes", "classic_excerpt_length": 14,
          "classic_meta_data": ["date"],
          "title_color": HEAD_DARK, "excerpt_color": BODY_MUTED,
-         "meta_color": "#9A9AAB"}
+         "meta_color": META}
     s.update({f"title_typography_{k}": v
               for k, v in typo(FONT_HEAD, 700, 20, 1.3).items()})
     return widget("posts", s)
 
 
 def t_header():
-    logo = column([heading(BRAND, "h4", MAGENTA, "left", FONT_HEAD, 700, 26,
+    logo = column([heading(BRAND, "h4", MAGENTA_POP, "left", FONT_HEAD, 700, 26,
                            1, -0.5)], 25)
     nav = column([w_nav_menu()], 50)
     cta = column([button("Commission", align="right", small=True)], 25)

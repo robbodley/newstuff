@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "ffbc491",
+      "id": "dd0b767",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -27,7 +27,7 @@
       },
       "elements": [
         {
-          "id": "d8909f7",
+          "id": "d2597e4",
           "elType": "column",
           "settings": {
             "_column_size": 25,
@@ -35,7 +35,7 @@
           },
           "elements": [
             {
-              "id": "9e72c17",
+              "id": "afe1bfe",
               "elType": "widget",
               "settings": {
                 "title": "Whatshername",
@@ -43,7 +43,7 @@
                 "align": "left",
                 "title_color": "#F5179E",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -68,7 +68,7 @@
           "isInner": false
         },
         {
-          "id": "92b5a5a",
+          "id": "e968a62",
           "elType": "column",
           "settings": {
             "_column_size": 50,
@@ -76,14 +76,14 @@
           },
           "elements": [
             {
-              "id": "f498965",
+              "id": "507660a",
               "elType": "widget",
               "settings": {
                 "menu": "",
                 "align_items": "center",
                 "pointer": "underline",
                 "menu_typography_typography": "custom",
-                "menu_typography_font_family": "Poppins",
+                "menu_typography_font_family": "Syne",
                 "menu_typography_font_weight": "500",
                 "menu_typography_font_size": {
                   "unit": "px",
@@ -101,7 +101,7 @@
           "isInner": false
         },
         {
-          "id": "410b14d",
+          "id": "b9d492f",
           "elType": "column",
           "settings": {
             "_column_size": 25,
@@ -109,7 +109,7 @@
           },
           "elements": [
             {
-              "id": "7e83819",
+              "id": "fc3a9ec",
               "elType": "widget",
               "settings": {
                 "text": "Commission",
@@ -137,7 +137,7 @@
                 },
                 "button_text_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "600",
                 "typography_font_size": {
                   "unit": "px",
@@ -150,7 +150,7 @@
                   "size": 0.5,
                   "sizes": []
                 },
-                "background_color": "#F5179E"
+                "background_color": "#B3117A"
               },
               "elements": [],
               "widgetType": "button"

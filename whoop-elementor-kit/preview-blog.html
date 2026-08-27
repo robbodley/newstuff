@@ -1,10 +1,10 @@
 <title>Whatshername Blog Preview</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap');
   :root{
-    --white:#fff; --light:#F7F7FB; --head:#26263A; --muted:#6E6E80; --meta:#9A9AAB;
-    --purple:#9C1AE6; --magenta:#F5179E; --cyan:#12D8E8; --border:#ECECF3;
-    --grad:linear-gradient(135deg,#7B2FF7 0%,#F0139C 100%); --f:'Poppins',sans-serif;
+    --white:#fff; --light:#F7F7FB; --head:#26263A; --muted:#6E6E80; --meta:#5E5E6E;
+    --purple:#9C1AE6; --magenta:#B3117A;--pop:#F5179E; --cyan:#12D8E8; --border:#ECECF3;
+    --grad:linear-gradient(135deg,#7B2FF7 0%,#D6148C 100%); --f:'Manrope',sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:var(--f);color:var(--head);background:#fff;line-height:1.6}
@@ -24,7 +24,7 @@
   .g6{background:linear-gradient(135deg,#FF6FA5,#7B2FF7)} .g7{background:linear-gradient(135deg,#7B2FF7,#1EC9FF)}
   .g8{background:linear-gradient(135deg,#FF7A45,#F5179E)}
   nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--border)}
-  nav .logo{font-weight:700;font-size:26px;color:var(--magenta)}
+  nav .logo{font-weight:700;font-size:26px;color:var(--pop)}
   nav .links a{color:var(--head);text-decoration:none;margin:0 12px;font-size:14px;font-weight:500}
   .phead{background:var(--grad);text-align:center;padding:100px 0}
   .phead h1{color:#fff;font-size:clamp(42px,7vw,64px);font-weight:800}
@@ -74,6 +74,12 @@
     .feat,.grid,.art,.news,.fgrid{grid-template-columns:1fr} .news .r{text-align:left}
     nav .links{display:none}
   }
+
+  /* --- ui-ux-pro-max audit fixes: fonts, focus, reduced-motion --- */
+  h1,h2,h3,h4,h5,h6,.eyebrow,.btn,.logo{font-family:'Syne','Manrope',sans-serif}
+  a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
+    outline:3px solid var(--purple);outline-offset:3px;border-radius:4px}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 </style>
 
 <!-- ============ BLOG / JOURNAL ARCHIVE ============ -->

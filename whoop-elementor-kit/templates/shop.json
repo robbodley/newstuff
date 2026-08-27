@@ -1,12 +1,12 @@
 {
   "content": [
     {
-      "id": "98169a6",
+      "id": "1b36e54",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
         "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
+        "background_color_b": "#D6148C",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
@@ -24,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "c07a60e",
+          "id": "18941cb",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,7 +32,7 @@
           },
           "elements": [
             {
-              "id": "2df8fb4",
+              "id": "2678e38",
               "elType": "widget",
               "settings": {
                 "title": "Buy Art",
@@ -40,7 +40,7 @@
                 "align": "center",
                 "title_color": "rgba(255,255,255,0.85)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -58,7 +58,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "a4bbd66",
+              "id": "79969ff",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -71,7 +71,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "a7260cc",
+              "id": "716ca7f",
               "elType": "widget",
               "settings": {
                 "title": "Shop",
@@ -79,7 +79,7 @@
                 "align": "center",
                 "title_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -106,7 +106,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "7c9759d",
+              "id": "e0a31cd",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -119,14 +119,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "d3e8d36",
+              "id": "27b8b47",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Take a piece home. Original paintings and limited prints, shipped worldwide.</p>",
                 "align": "center",
                 "text_color": "rgba(255,255,255,0.9)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -149,7 +149,7 @@
       "isInner": false
     },
     {
-      "id": "74b6eba",
+      "id": "bcb87e6",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -165,7 +165,7 @@
       },
       "elements": [
         {
-          "id": "a11e5a3",
+          "id": "0a636ff",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -173,14 +173,14 @@
           },
           "elements": [
             {
-              "id": "eaf49a7",
+              "id": "8fd4011",
               "elType": "section",
               "settings": {
                 "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "1b0eccc",
+                  "id": "a647091",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -188,7 +188,7 @@
                   },
                   "elements": [
                     {
-                      "id": "52b85d6",
+                      "id": "9cf7c00",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -230,7 +230,7 @@
                       },
                       "elements": [
                         {
-                          "id": "458e1bd",
+                          "id": "1c64197",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -238,7 +238,7 @@
                           },
                           "elements": [
                             {
-                              "id": "c56cebd",
+                              "id": "72cab0a",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -259,7 +259,7 @@
                               "widgetType": "image"
                             },
                             {
-                              "id": "0351c9b",
+                              "id": "6cfaa35",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -272,14 +272,14 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "8ebd474",
+                              "id": "19af71d",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Original Painting</p>",
                                 "align": "left",
-                                "text_color": "#F5179E",
+                                "text_color": "#B3117A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -296,7 +296,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "b0cd747",
+                              "id": "1fdd8ac",
                               "elType": "widget",
                               "settings": {
                                 "title": "Bloom No.4",
@@ -304,7 +304,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -326,7 +326,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "4c08180",
+                              "id": "effb9ca",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -339,7 +339,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "f84878f",
+                              "id": "947d2bc",
                               "elType": "widget",
                               "settings": {
                                 "title": "\u00a31,200",
@@ -347,7 +347,7 @@
                                 "align": "left",
                                 "title_color": "#9C1AE6",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -369,7 +369,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "9970ce6",
+                              "id": "c700dc1",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -382,7 +382,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "8cb3072",
+                              "id": "f068836",
                               "elType": "widget",
                               "settings": {
                                 "text": "Add to Cart",
@@ -410,7 +410,7 @@
                                 },
                                 "button_text_color": "#FFFFFF",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -423,7 +423,7 @@
                                   "size": 0.5,
                                   "sizes": []
                                 },
-                                "background_color": "#F5179E"
+                                "background_color": "#B3117A"
                               },
                               "elements": [],
                               "widgetType": "button"
@@ -438,7 +438,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "564da14",
+                  "id": "42938c0",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -446,7 +446,7 @@
                   },
                   "elements": [
                     {
-                      "id": "a0a0c34",
+                      "id": "fe301b5",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -488,7 +488,7 @@
                       },
                       "elements": [
                         {
-                          "id": "2b2f1c7",
+                          "id": "c38f299",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -496,7 +496,7 @@
                           },
                           "elements": [
                             {
-                              "id": "e5b298d",
+                              "id": "d1e67ed",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -517,7 +517,7 @@
                               "widgetType": "image"
                             },
                             {
-                              "id": "e8c3f65",
+                              "id": "eea9040",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -530,14 +530,14 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "b4870c8",
+                              "id": "a82bd10",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Limited Print</p>",
                                 "align": "left",
-                                "text_color": "#F5179E",
+                                "text_color": "#B3117A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -554,7 +554,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "826e359",
+                              "id": "4d65d24",
                               "elType": "widget",
                               "settings": {
                                 "title": "Static Hum",
@@ -562,7 +562,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -584,7 +584,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "94f6eb5",
+                              "id": "08b475b",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -597,7 +597,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "76c87b8",
+                              "id": "31ba5bc",
                               "elType": "widget",
                               "settings": {
                                 "title": "\u00a385",
@@ -605,7 +605,7 @@
                                 "align": "left",
                                 "title_color": "#9C1AE6",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -627,7 +627,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "24adb31",
+                              "id": "ed47758",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -640,7 +640,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "46addeb",
+                              "id": "a372dc9",
                               "elType": "widget",
                               "settings": {
                                 "text": "Add to Cart",
@@ -668,7 +668,7 @@
                                 },
                                 "button_text_color": "#FFFFFF",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -681,7 +681,7 @@
                                   "size": 0.5,
                                   "sizes": []
                                 },
-                                "background_color": "#F5179E"
+                                "background_color": "#B3117A"
                               },
                               "elements": [],
                               "widgetType": "button"
@@ -696,7 +696,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "702614f",
+                  "id": "fd462ed",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -704,7 +704,7 @@
                   },
                   "elements": [
                     {
-                      "id": "910553b",
+                      "id": "28d19e4",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -746,7 +746,7 @@
                       },
                       "elements": [
                         {
-                          "id": "3da797f",
+                          "id": "16518d8",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -754,7 +754,7 @@
                           },
                           "elements": [
                             {
-                              "id": "db269ef",
+                              "id": "26cd6d5",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -775,7 +775,7 @@
                               "widgetType": "image"
                             },
                             {
-                              "id": "bc5641e",
+                              "id": "ed9e0e7",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -788,14 +788,14 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "53a01eb",
+                              "id": "239a933",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Original Painting</p>",
                                 "align": "left",
-                                "text_color": "#F5179E",
+                                "text_color": "#B3117A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -812,7 +812,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "513fe96",
+                              "id": "b06e285",
                               "elType": "widget",
                               "settings": {
                                 "title": "Rush Hour",
@@ -820,7 +820,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -842,7 +842,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "560f3fd",
+                              "id": "3ba55eb",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -855,7 +855,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "11c658f",
+                              "id": "f113af8",
                               "elType": "widget",
                               "settings": {
                                 "title": "\u00a31,450",
@@ -863,7 +863,7 @@
                                 "align": "left",
                                 "title_color": "#9C1AE6",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -885,7 +885,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "d901dde",
+                              "id": "f4ac467",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -898,7 +898,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "2c5ae66",
+                              "id": "caaeba8",
                               "elType": "widget",
                               "settings": {
                                 "text": "Add to Cart",
@@ -926,7 +926,7 @@
                                 },
                                 "button_text_color": "#FFFFFF",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -939,7 +939,7 @@
                                   "size": 0.5,
                                   "sizes": []
                                 },
-                                "background_color": "#F5179E"
+                                "background_color": "#B3117A"
                               },
                               "elements": [],
                               "widgetType": "button"
@@ -957,12 +957,12 @@
               "isInner": true
             },
             {
-              "id": "9798415",
+              "id": "fc1d412",
               "elType": "section",
               "settings": {},
               "elements": [
                 {
-                  "id": "52c6bde",
+                  "id": "d8aee32",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -970,7 +970,7 @@
                   },
                   "elements": [
                     {
-                      "id": "345bdd9",
+                      "id": "363b1d1",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -989,14 +989,14 @@
               "isInner": true
             },
             {
-              "id": "b3e0674",
+              "id": "252a271",
               "elType": "section",
               "settings": {
                 "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "3508475",
+                  "id": "ced43d1",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1004,7 +1004,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3ef8093",
+                      "id": "1780e39",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -1046,7 +1046,7 @@
                       },
                       "elements": [
                         {
-                          "id": "e7d79bf",
+                          "id": "4bb5039",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -1054,7 +1054,7 @@
                           },
                           "elements": [
                             {
-                              "id": "44ed61d",
+                              "id": "d5e4316",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -1075,7 +1075,7 @@
                               "widgetType": "image"
                             },
                             {
-                              "id": "c4d7f41",
+                              "id": "798f0c8",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1088,14 +1088,14 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "2191fd7",
+                              "id": "ffa5898",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Limited Print</p>",
                                 "align": "left",
-                                "text_color": "#F5179E",
+                                "text_color": "#B3117A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1112,7 +1112,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "f26d968",
+                              "id": "25b0a65",
                               "elType": "widget",
                               "settings": {
                                 "title": "Neon Sleep",
@@ -1120,7 +1120,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1142,7 +1142,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "4abaf1f",
+                              "id": "ced6cc1",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1155,7 +1155,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "588845d",
+                              "id": "b2a0a15",
                               "elType": "widget",
                               "settings": {
                                 "title": "\u00a385",
@@ -1163,7 +1163,7 @@
                                 "align": "left",
                                 "title_color": "#9C1AE6",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1185,7 +1185,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "f2e16c3",
+                              "id": "7591136",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1198,7 +1198,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "415dc77",
+                              "id": "55b9fe8",
                               "elType": "widget",
                               "settings": {
                                 "text": "Add to Cart",
@@ -1226,7 +1226,7 @@
                                 },
                                 "button_text_color": "#FFFFFF",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1239,7 +1239,7 @@
                                   "size": 0.5,
                                   "sizes": []
                                 },
-                                "background_color": "#F5179E"
+                                "background_color": "#B3117A"
                               },
                               "elements": [],
                               "widgetType": "button"
@@ -1254,7 +1254,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "46b15ec",
+                  "id": "e71d2e0",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1262,7 +1262,7 @@
                   },
                   "elements": [
                     {
-                      "id": "a2bbe9a",
+                      "id": "e45a9a9",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -1304,7 +1304,7 @@
                       },
                       "elements": [
                         {
-                          "id": "a6c7822",
+                          "id": "f939755",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -1312,7 +1312,7 @@
                           },
                           "elements": [
                             {
-                              "id": "e97c2c3",
+                              "id": "f3a319d",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -1333,7 +1333,7 @@
                               "widgetType": "image"
                             },
                             {
-                              "id": "ac64ff7",
+                              "id": "65ff602",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1346,14 +1346,14 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "c19b8ec",
+                              "id": "f1dab1e",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Original Painting</p>",
                                 "align": "left",
-                                "text_color": "#F5179E",
+                                "text_color": "#B3117A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1370,7 +1370,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "490a501",
+                              "id": "79d7a95",
                               "elType": "widget",
                               "settings": {
                                 "title": "Pulse",
@@ -1378,7 +1378,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1400,7 +1400,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "60ba26c",
+                              "id": "d02b05b",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1413,7 +1413,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "4109347",
+                              "id": "5565786",
                               "elType": "widget",
                               "settings": {
                                 "title": "\u00a3980",
@@ -1421,7 +1421,7 @@
                                 "align": "left",
                                 "title_color": "#9C1AE6",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1443,7 +1443,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "320f045",
+                              "id": "03443f2",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1456,7 +1456,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "201020f",
+                              "id": "be8aa8d",
                               "elType": "widget",
                               "settings": {
                                 "text": "Add to Cart",
@@ -1484,7 +1484,7 @@
                                 },
                                 "button_text_color": "#FFFFFF",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1497,7 +1497,7 @@
                                   "size": 0.5,
                                   "sizes": []
                                 },
-                                "background_color": "#F5179E"
+                                "background_color": "#B3117A"
                               },
                               "elements": [],
                               "widgetType": "button"
@@ -1512,7 +1512,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "70690a6",
+                  "id": "23f1b7f",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1520,7 +1520,7 @@
                   },
                   "elements": [
                     {
-                      "id": "1cab782",
+                      "id": "cf00af3",
                       "elType": "section",
                       "settings": {
                         "background_background": "classic",
@@ -1562,7 +1562,7 @@
                       },
                       "elements": [
                         {
-                          "id": "f52093d",
+                          "id": "7a9e27b",
                           "elType": "column",
                           "settings": {
                             "_column_size": 100,
@@ -1570,7 +1570,7 @@
                           },
                           "elements": [
                             {
-                              "id": "8fe4fe2",
+                              "id": "b1746b1",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -1591,7 +1591,7 @@
                               "widgetType": "image"
                             },
                             {
-                              "id": "2fdc40e",
+                              "id": "35187b4",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1604,14 +1604,14 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "56414e0",
+                              "id": "12639a0",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>Limited Print</p>",
                                 "align": "left",
-                                "text_color": "#F5179E",
+                                "text_color": "#B3117A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1628,7 +1628,7 @@
                               "widgetType": "text-editor"
                             },
                             {
-                              "id": "1307fd9",
+                              "id": "95ee3ae",
                               "elType": "widget",
                               "settings": {
                                 "title": "Colour Riot",
@@ -1636,7 +1636,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1658,7 +1658,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "43ac373",
+                              "id": "5638530",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1671,7 +1671,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "1d278bf",
+                              "id": "13b04b0",
                               "elType": "widget",
                               "settings": {
                                 "title": "\u00a3120",
@@ -1679,7 +1679,7 @@
                                 "align": "left",
                                 "title_color": "#9C1AE6",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "700",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1701,7 +1701,7 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "54c6488",
+                              "id": "e6f86a3",
                               "elType": "widget",
                               "settings": {
                                 "space": {
@@ -1714,7 +1714,7 @@
                               "widgetType": "spacer"
                             },
                             {
-                              "id": "55c1082",
+                              "id": "e3b3966",
                               "elType": "widget",
                               "settings": {
                                 "text": "Add to Cart",
@@ -1742,7 +1742,7 @@
                                 },
                                 "button_text_color": "#FFFFFF",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1755,7 +1755,7 @@
                                   "size": 0.5,
                                   "sizes": []
                                 },
-                                "background_color": "#F5179E"
+                                "background_color": "#B3117A"
                               },
                               "elements": [],
                               "widgetType": "button"
@@ -1773,12 +1773,12 @@
               "isInner": true
             },
             {
-              "id": "404d2df",
+              "id": "e88a565",
               "elType": "section",
               "settings": {},
               "elements": [
                 {
-                  "id": "e8e4365",
+                  "id": "e27c660",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -1786,7 +1786,7 @@
                   },
                   "elements": [
                     {
-                      "id": "37694bf",
+                      "id": "53dc2b8",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1805,7 +1805,7 @@
               "isInner": true
             },
             {
-              "id": "c0e687b",
+              "id": "3833c4a",
               "elType": "column",
               "settings": {
                 "_column_size": 100,
@@ -1813,7 +1813,7 @@
               },
               "elements": [
                 {
-                  "id": "b9bc4b3",
+                  "id": "af9ec78",
                   "elType": "widget",
                   "settings": {
                     "space": {
@@ -1826,14 +1826,14 @@
                   "widgetType": "spacer"
                 },
                 {
-                  "id": "8cf3fb8",
+                  "id": "b203782",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Prices shown are placeholders. For real checkout, install WooCommerce and convert these cards to Product widgets.</p>",
                     "align": "center",
                     "text_color": "#6E6E80",
                     "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
+                    "typography_font_family": "Manrope",
                     "typography_font_weight": "400",
                     "typography_font_size": {
                       "unit": "px",

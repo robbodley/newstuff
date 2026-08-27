@@ -1,12 +1,12 @@
 {
   "content": [
     {
-      "id": "a766d1c",
+      "id": "e7aef34",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
         "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
+        "background_color_b": "#D6148C",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
@@ -24,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "b0ce410",
+          "id": "b59722e",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,7 +32,7 @@
           },
           "elements": [
             {
-              "id": "09ccdcb",
+              "id": "875ce2b",
               "elType": "widget",
               "settings": {
                 "title": "The Journal",
@@ -40,7 +40,7 @@
                 "align": "center",
                 "title_color": "rgba(255,255,255,0.85)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -58,7 +58,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "11b161e",
+              "id": "3531006",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -71,14 +71,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "cb81a14",
+              "id": "f3a3677",
               "elType": "widget",
               "settings": {
                 "header_size": "h1",
                 "align": "center",
                 "title_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -100,7 +100,7 @@
               "widgetType": "archive-title"
             },
             {
-              "id": "36c7243",
+              "id": "01a7838",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -113,14 +113,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "e874f5a",
+              "id": "bda0ba7",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Essays, studio notes and news from behind the canvas.</p>",
                 "align": "center",
                 "text_color": "rgba(255,255,255,0.9)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -143,7 +143,7 @@
       "isInner": false
     },
     {
-      "id": "f266b16",
+      "id": "e7896a0",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -159,7 +159,7 @@
       },
       "elements": [
         {
-          "id": "e6dea91",
+          "id": "b165f30",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -167,7 +167,7 @@
           },
           "elements": [
             {
-              "id": "9580215",
+              "id": "2383842",
               "elType": "widget",
               "settings": {
                 "_skin": "classic",
@@ -188,9 +188,9 @@
                 "classic_read_more_text": "Read more \u2192",
                 "title_color": "#26263A",
                 "excerpt_color": "#6E6E80",
-                "meta_color": "#9A9AAB",
+                "meta_color": "#5E5E6E",
                 "title_typography_typography_typography": "custom",
-                "title_typography_typography_font_family": "Poppins",
+                "title_typography_typography_font_family": "Syne",
                 "title_typography_typography_font_weight": "700",
                 "title_typography_typography_font_size": {
                   "unit": "px",

@@ -1,10 +1,10 @@
 <title>Whatshername About & Contact</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap');
   :root{
     --white:#fff;--light:#F7F7FB;--head:#26263A;--muted:#6E6E80;
-    --purple:#9C1AE6;--magenta:#F5179E;--cyan:#12D8E8;--border:#ECECF3;
-    --grad:linear-gradient(135deg,#7B2FF7 0%,#F0139C 100%);--f:'Poppins',sans-serif;
+    --purple:#9C1AE6;--magenta:#B3117A;--pop:#F5179E;--cyan:#12D8E8;--border:#ECECF3;
+    --grad:linear-gradient(135deg,#7B2FF7 0%,#D6148C 100%);--f:'Manrope',sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:var(--f);color:var(--head);background:#fff;line-height:1.6}
@@ -47,6 +47,12 @@
   .divider{text-align:center;padding:40px 0;background:var(--light);color:var(--muted);font-weight:700;
     text-transform:uppercase;letter-spacing:2px;font-size:13px}
   @media(max-width:860px){.split,.split.r,.cards,.fgrid{grid-template-columns:1fr}}
+
+  /* --- ui-ux-pro-max audit fixes: fonts, focus, reduced-motion --- */
+  h1,h2,h3,h4,h5,h6,.eyebrow,.btn,.logo{font-family:'Syne','Manrope',sans-serif}
+  a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
+    outline:3px solid var(--purple);outline-offset:3px;border-radius:4px}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 </style>
 
 <!-- ABOUT -->

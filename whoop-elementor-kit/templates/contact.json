@@ -1,12 +1,12 @@
 {
   "content": [
     {
-      "id": "ff30146",
+      "id": "32ae68a",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
         "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
+        "background_color_b": "#D6148C",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
@@ -24,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "e2e3922",
+          "id": "ab81d56",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,7 +32,7 @@
           },
           "elements": [
             {
-              "id": "efc3987",
+              "id": "d6e75e0",
               "elType": "widget",
               "settings": {
                 "title": "Contact",
@@ -40,7 +40,7 @@
                 "align": "center",
                 "title_color": "rgba(255,255,255,0.85)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -58,7 +58,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "856b500",
+              "id": "5e5e89e",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -71,7 +71,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "0ce27bf",
+              "id": "3382bc5",
               "elType": "widget",
               "settings": {
                 "title": "Say Hello",
@@ -79,7 +79,7 @@
                 "align": "center",
                 "title_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -106,7 +106,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "6dfced2",
+              "id": "2ba068a",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -119,14 +119,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "d490d4f",
+              "id": "702af43",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Commissions, prints, press and studio visits.</p>",
                 "align": "center",
                 "text_color": "rgba(255,255,255,0.9)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -149,7 +149,7 @@
       "isInner": false
     },
     {
-      "id": "1180814",
+      "id": "1726ab9",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -166,7 +166,7 @@
       },
       "elements": [
         {
-          "id": "30d9b46",
+          "id": "430cb57",
           "elType": "column",
           "settings": {
             "_column_size": 45,
@@ -174,15 +174,15 @@
           },
           "elements": [
             {
-              "id": "dda5c37",
+              "id": "acbe57f",
               "elType": "widget",
               "settings": {
                 "title": "Say Hello",
                 "header_size": "h6",
                 "align": "left",
-                "title_color": "#F5179E",
+                "title_color": "#B3117A",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -200,7 +200,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "ac6676b",
+              "id": "371f3a1",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -213,7 +213,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "069e628",
+              "id": "2c7733e",
               "elType": "widget",
               "settings": {
                 "title": "Let's make something together.",
@@ -221,7 +221,7 @@
                 "align": "left",
                 "title_color": "#26263A",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -243,7 +243,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "1dceebe",
+              "id": "e44bd12",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -256,14 +256,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "058295b",
+              "id": "d09f265",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Commissions, print enquiries, press or studio visits \u2014 drop a note and I'll get back to you within a few days.</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -280,7 +280,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "f34da48",
+              "id": "3d6563a",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -293,14 +293,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "a4ed17b",
+              "id": "c517e81",
               "elType": "widget",
               "settings": {
                 "editor": "<p><strong style=\"color:#26263A\">Email</strong><br>hello@whatshername.uk</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -317,14 +317,14 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "64313e8",
+              "id": "3153f1d",
               "elType": "widget",
               "settings": {
                 "editor": "<p><strong style=\"color:#26263A\">Studio</strong><br>Unit 4, Bright Lane, London</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -341,14 +341,14 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "bc37659",
+              "id": "de609f9",
               "elType": "widget",
               "settings": {
                 "editor": "<p><strong style=\"color:#26263A\">Instagram</strong><br>@whatshername.uk</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -368,7 +368,7 @@
           "isInner": false
         },
         {
-          "id": "6f8ab35",
+          "id": "16b6c83",
           "elType": "column",
           "settings": {
             "_column_size": 55,
@@ -376,7 +376,7 @@
           },
           "elements": [
             {
-              "id": "3a149a1",
+              "id": "136bbd5",
               "elType": "section",
               "settings": {
                 "background_background": "classic",
@@ -418,7 +418,7 @@
               },
               "elements": [
                 {
-                  "id": "c22e525",
+                  "id": "bd08e24",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -434,7 +434,7 @@
                   },
                   "elements": [
                     {
-                      "id": "9e3f879",
+                      "id": "1d6ad7d",
                       "elType": "widget",
                       "settings": {
                         "form_name": "Contact",
@@ -475,12 +475,12 @@
                         "button_text": "Send Message",
                         "button_size": "md",
                         "button_width": "100",
-                        "button_background_color": "#F5179E",
+                        "button_background_color": "#B3117A",
                         "label_typography_typography": "custom",
-                        "label_typography_font_family": "Poppins",
+                        "label_typography_font_family": "Syne",
                         "label_typography_font_weight": "600",
                         "button_typography_typography": "custom",
-                        "button_typography_font_family": "Poppins",
+                        "button_typography_font_family": "Syne",
                         "button_typography_font_weight": "600",
                         "button_border_radius": {
                           "unit": "px",
@@ -507,7 +507,7 @@
       "isInner": false
     },
     {
-      "id": "8d8e845",
+      "id": "e09bef5",
       "elType": "section",
       "settings": {
         "padding": {
@@ -521,7 +521,7 @@
       },
       "elements": [
         {
-          "id": "ef99bcb",
+          "id": "642fbca",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -529,7 +529,7 @@
           },
           "elements": [
             {
-              "id": "3efac18",
+              "id": "819698d",
               "elType": "widget",
               "settings": {
                 "address": "London, UK",

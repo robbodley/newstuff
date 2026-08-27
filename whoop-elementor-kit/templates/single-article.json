@@ -1,12 +1,12 @@
 {
   "content": [
     {
-      "id": "43908d4",
+      "id": "7579bae",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
         "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
+        "background_color_b": "#D6148C",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
@@ -24,7 +24,7 @@
       },
       "elements": [
         {
-          "id": "edfb025",
+          "id": "e7c10fc",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,7 +32,7 @@
           },
           "elements": [
             {
-              "id": "8dc0cb9",
+              "id": "f6cd9f8",
               "elType": "widget",
               "settings": {
                 "title": "Studio Notes",
@@ -40,7 +40,7 @@
                 "align": "center",
                 "title_color": "rgba(255,255,255,0.85)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -58,7 +58,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "5e01292",
+              "id": "837f16e",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -71,7 +71,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "55e92ad",
+              "id": "96e6e1a",
               "elType": "widget",
               "settings": {
                 "title": "Street art, colour theory, and painting out loud",
@@ -79,7 +79,7 @@
                 "align": "center",
                 "title_color": "#FFFFFF",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
@@ -106,7 +106,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "50429ca",
+              "id": "477a6c9",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -119,14 +119,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "c75734e",
+              "id": "f57d6b9",
               "elType": "widget",
               "settings": {
                 "editor": "<p>By Whatshername&nbsp;&nbsp;\u00b7&nbsp;&nbsp;13 August 2026&nbsp;&nbsp;\u00b7&nbsp;&nbsp;6 min read</p>",
                 "align": "center",
                 "text_color": "rgba(255,255,255,0.9)",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -149,7 +149,7 @@
       "isInner": false
     },
     {
-      "id": "57a6895",
+      "id": "2bbde75",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -166,7 +166,7 @@
       },
       "elements": [
         {
-          "id": "798a779",
+          "id": "cfb5876",
           "elType": "column",
           "settings": {
             "_column_size": 64,
@@ -174,7 +174,7 @@
           },
           "elements": [
             {
-              "id": "fef577e",
+              "id": "9b388d4",
               "elType": "widget",
               "settings": {
                 "image": {
@@ -195,7 +195,7 @@
               "widgetType": "image"
             },
             {
-              "id": "53478c1",
+              "id": "ce8ff1f",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -208,14 +208,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "cbe0ef7",
+              "id": "4b024d3",
               "elType": "widget",
               "settings": {
                 "editor": "<p>There's a myth that good taste means restraint. I've never believed it. The work that moves me is the work that isn't afraid to be too much \u2014 too bright, too fast, too honest.</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -232,14 +232,14 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "55ebd01",
+              "id": "3f574b0",
               "elType": "widget",
               "settings": {
                 "editor": "<p>This piece started, like most of them, with a feeling I couldn't name. So I reached for the loudest colour on the table and started making marks until the feeling had a shape.</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -256,7 +256,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "8d40f61",
+              "id": "9cd8735",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -269,7 +269,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "d8508f7",
+              "id": "3b1096f",
               "elType": "section",
               "settings": {
                 "background_background": "classic",
@@ -299,11 +299,11 @@
                   "left": "5",
                   "isLinked": false
                 },
-                "border_color": "#F5179E"
+                "border_color": "#B3117A"
               },
               "elements": [
                 {
-                  "id": "7e6e9c5",
+                  "id": "4d1376e",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -311,7 +311,7 @@
                   },
                   "elements": [
                     {
-                      "id": "35f7662",
+                      "id": "c05cd76",
                       "elType": "widget",
                       "settings": {
                         "title": "&ldquo;Colour is the place where our brain and the universe meet.&rdquo;",
@@ -319,7 +319,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "600",
                         "typography_font_size": {
                           "unit": "px",
@@ -342,7 +342,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "f03a8df",
+                      "id": "be69457",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -355,14 +355,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "dcc837f",
+                      "id": "c928204",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>\u2014 a line I keep above the easel</p>",
                         "align": "left",
-                        "text_color": "#F5179E",
+                        "text_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -385,7 +385,7 @@
               "isInner": true
             },
             {
-              "id": "187d31a",
+              "id": "d726df7",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -398,7 +398,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "fec3141",
+              "id": "399ea8e",
               "elType": "widget",
               "settings": {
                 "title": "Colour as a language",
@@ -406,7 +406,7 @@
                 "align": "left",
                 "title_color": "#26263A",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Syne",
                 "typography_font_weight": "700",
                 "typography_font_size": {
                   "unit": "px",
@@ -428,7 +428,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "f9117e7",
+              "id": "043afee",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -441,14 +441,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "04426e6",
+              "id": "0577cc9",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Every hue carries a mood. Magenta shouts, cyan hums, yellow laughs. When I put them next to each other, I'm really writing a sentence \u2014 the composition is just grammar.</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -465,7 +465,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "03b63fb",
+              "id": "e8d0b58",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -478,7 +478,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "e96b2d3",
+              "id": "c170863",
               "elType": "widget",
               "settings": {
                 "image": {
@@ -499,7 +499,7 @@
               "widgetType": "image"
             },
             {
-              "id": "09794b7",
+              "id": "2bc9322",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -512,14 +512,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "13b56ab",
+              "id": "cca5517",
               "elType": "widget",
               "settings": {
                 "editor": "<p>By the end, the painting knows more than I did when I started. That's the whole point of making it.</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -536,7 +536,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "2254186",
+              "id": "4c274af",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -549,14 +549,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "d13832c",
+              "id": "e07db38",
               "elType": "widget",
               "settings": {
                 "editor": "<p><strong style=\"color:#26263A\">Filed under:</strong> &nbsp;Studio Notes&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Process&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Colour</p>",
                 "align": "left",
                 "text_color": "#6E6E80",
                 "typography_typography": "custom",
-                "typography_font_family": "Poppins",
+                "typography_font_family": "Manrope",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
@@ -576,7 +576,7 @@
           "isInner": false
         },
         {
-          "id": "0227bde",
+          "id": "b893b1a",
           "elType": "column",
           "settings": {
             "_column_size": 32,
@@ -584,7 +584,7 @@
           },
           "elements": [
             {
-              "id": "1935ae5",
+              "id": "9785a8c",
               "elType": "section",
               "settings": {
                 "background_background": "classic",
@@ -626,7 +626,7 @@
               },
               "elements": [
                 {
-                  "id": "3d92868",
+                  "id": "353b76b",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -634,7 +634,7 @@
                   },
                   "elements": [
                     {
-                      "id": "f512444",
+                      "id": "8f9d503",
                       "elType": "widget",
                       "settings": {
                         "title": "Categories",
@@ -642,7 +642,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -664,7 +664,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "33ff53f",
+                      "id": "96a5740",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -677,14 +677,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "8c01d8d",
+                      "id": "85f8e60",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#26263A;text-decoration:none\">Studio Notes (12)</a></p>",
                         "align": "left",
                         "text_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -701,14 +701,14 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "c204898",
+                      "id": "cc84310",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#26263A;text-decoration:none\">Shows (6)</a></p>",
                         "align": "left",
                         "text_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -725,14 +725,14 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "d69a320",
+                      "id": "c08ca1c",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#26263A;text-decoration:none\">Process (9)</a></p>",
                         "align": "left",
                         "text_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -749,14 +749,14 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "245fe19",
+                      "id": "9abb354",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#26263A;text-decoration:none\">Prints (4)</a></p>",
                         "align": "left",
                         "text_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -773,14 +773,14 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "64c4e6f",
+                      "id": "0db7ac3",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"#\" style=\"color:#26263A;text-decoration:none\">News (7)</a></p>",
                         "align": "left",
                         "text_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -803,7 +803,7 @@
               "isInner": true
             },
             {
-              "id": "3f8f3ce",
+              "id": "d298f79",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -816,7 +816,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "f77a37f",
+              "id": "111a51a",
               "elType": "section",
               "settings": {
                 "background_background": "classic",
@@ -858,7 +858,7 @@
               },
               "elements": [
                 {
-                  "id": "c36d65d",
+                  "id": "c877f9c",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -866,7 +866,7 @@
                   },
                   "elements": [
                     {
-                      "id": "71fe98c",
+                      "id": "3d069b5",
                       "elType": "widget",
                       "settings": {
                         "title": "Recent Posts",
@@ -874,7 +874,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -896,7 +896,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "726c50f",
+                      "id": "118dca2",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -909,14 +909,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "ed48248",
+                      "id": "a80e99b",
                       "elType": "section",
                       "settings": {
                         "gap": "narrow"
                       },
                       "elements": [
                         {
-                          "id": "dd4ad29",
+                          "id": "8f0cf8b",
                           "elType": "column",
                           "settings": {
                             "_column_size": 30,
@@ -924,7 +924,7 @@
                           },
                           "elements": [
                             {
-                              "id": "6a1804d",
+                              "id": "2b1df65",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -948,7 +948,7 @@
                           "isInner": false
                         },
                         {
-                          "id": "04d1f7e",
+                          "id": "ddb9f0a",
                           "elType": "column",
                           "settings": {
                             "_column_size": 70,
@@ -956,7 +956,7 @@
                           },
                           "elements": [
                             {
-                              "id": "38ff2c9",
+                              "id": "ebe7e1c",
                               "elType": "widget",
                               "settings": {
                                 "title": "The colours I keep coming back to",
@@ -964,7 +964,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -986,14 +986,14 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "49b845e",
+                              "id": "18aabdf",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>11 Aug 2026</p>",
                                 "align": "left",
-                                "text_color": "#9A9AAB",
+                                "text_color": "#5E5E6E",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "400",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1016,7 +1016,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "304f989",
+                      "id": "4785e54",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1029,14 +1029,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "e323530",
+                      "id": "85fdc50",
                       "elType": "section",
                       "settings": {
                         "gap": "narrow"
                       },
                       "elements": [
                         {
-                          "id": "a434fab",
+                          "id": "b177f64",
                           "elType": "column",
                           "settings": {
                             "_column_size": 30,
@@ -1044,7 +1044,7 @@
                           },
                           "elements": [
                             {
-                              "id": "a350def",
+                              "id": "38c1346",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -1068,7 +1068,7 @@
                           "isInner": false
                         },
                         {
-                          "id": "995ebae",
+                          "id": "55db086",
                           "elType": "column",
                           "settings": {
                             "_column_size": 70,
@@ -1076,7 +1076,7 @@
                           },
                           "elements": [
                             {
-                              "id": "e584995",
+                              "id": "75643bc",
                               "elType": "widget",
                               "settings": {
                                 "title": "How a painting actually starts",
@@ -1084,7 +1084,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1106,14 +1106,14 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "84826f3",
+                              "id": "0e6ef6e",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>24 Jul 2026</p>",
                                 "align": "left",
-                                "text_color": "#9A9AAB",
+                                "text_color": "#5E5E6E",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "400",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1136,7 +1136,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "65c4ae9",
+                      "id": "93350c3",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1149,14 +1149,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "3a1b2a6",
+                      "id": "876745e",
                       "elType": "section",
                       "settings": {
                         "gap": "narrow"
                       },
                       "elements": [
                         {
-                          "id": "e9e6c14",
+                          "id": "893e080",
                           "elType": "column",
                           "settings": {
                             "_column_size": 30,
@@ -1164,7 +1164,7 @@
                           },
                           "elements": [
                             {
-                              "id": "524f115",
+                              "id": "633b88c",
                               "elType": "widget",
                               "settings": {
                                 "image": {
@@ -1188,7 +1188,7 @@
                           "isInner": false
                         },
                         {
-                          "id": "c0f0c79",
+                          "id": "c512b3f",
                           "elType": "column",
                           "settings": {
                             "_column_size": 70,
@@ -1196,7 +1196,7 @@
                           },
                           "elements": [
                             {
-                              "id": "789e0fe",
+                              "id": "b2e0ceb",
                               "elType": "widget",
                               "settings": {
                                 "title": "New murals coming to the high street",
@@ -1204,7 +1204,7 @@
                                 "align": "left",
                                 "title_color": "#26263A",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Syne",
                                 "typography_font_weight": "600",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1226,14 +1226,14 @@
                               "widgetType": "heading"
                             },
                             {
-                              "id": "cb053d4",
+                              "id": "b224163",
                               "elType": "widget",
                               "settings": {
                                 "editor": "<p>03 Jul 2026</p>",
                                 "align": "left",
-                                "text_color": "#9A9AAB",
+                                "text_color": "#5E5E6E",
                                 "typography_typography": "custom",
-                                "typography_font_family": "Poppins",
+                                "typography_font_family": "Manrope",
                                 "typography_font_weight": "400",
                                 "typography_font_size": {
                                   "unit": "px",
@@ -1262,7 +1262,7 @@
               "isInner": true
             },
             {
-              "id": "d7bc533",
+              "id": "49a7498",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -1275,7 +1275,7 @@
               "widgetType": "spacer"
             },
             {
-              "id": "8c58da5",
+              "id": "7dbc049",
               "elType": "section",
               "settings": {
                 "background_background": "classic",
@@ -1317,7 +1317,7 @@
               },
               "elements": [
                 {
-                  "id": "f5310c7",
+                  "id": "1835452",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -1325,7 +1325,7 @@
                   },
                   "elements": [
                     {
-                      "id": "08220db",
+                      "id": "25f527a",
                       "elType": "widget",
                       "settings": {
                         "title": "Tags",
@@ -1333,7 +1333,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1355,7 +1355,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "4f41b3d",
+                      "id": "aafaeed",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1368,14 +1368,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "b6cfdbf",
+                      "id": "3bde689",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>&nbsp;Colour&nbsp; &nbsp;Acrylic&nbsp; &nbsp;Studio&nbsp; &nbsp;Prints&nbsp; &nbsp;Shows&nbsp; &nbsp;Process&nbsp;</p>",
                         "align": "left",
                         "text_color": "#9C1AE6",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "600",
                         "typography_font_size": {
                           "unit": "px",
@@ -1404,7 +1404,7 @@
       "isInner": false
     },
     {
-      "id": "347c5bd",
+      "id": "d1ad6c0",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -1420,7 +1420,7 @@
       },
       "elements": [
         {
-          "id": "9fdf2c1",
+          "id": "55fa356",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -1428,7 +1428,7 @@
           },
           "elements": [
             {
-              "id": "7d84665",
+              "id": "e4ff64c",
               "elType": "column",
               "settings": {
                 "_column_size": 100,
@@ -1436,15 +1436,15 @@
               },
               "elements": [
                 {
-                  "id": "9861e59",
+                  "id": "f916cfb",
                   "elType": "widget",
                   "settings": {
                     "title": "Keep Reading",
                     "header_size": "h6",
                     "align": "center",
-                    "title_color": "#F5179E",
+                    "title_color": "#B3117A",
                     "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
+                    "typography_font_family": "Syne",
                     "typography_font_weight": "700",
                     "typography_font_size": {
                       "unit": "px",
@@ -1462,7 +1462,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "8e2bd89",
+                  "id": "75063e0",
                   "elType": "widget",
                   "settings": {
                     "space": {
@@ -1475,7 +1475,7 @@
                   "widgetType": "spacer"
                 },
                 {
-                  "id": "616480a",
+                  "id": "1fc092a",
                   "elType": "widget",
                   "settings": {
                     "title": "More from the journal",
@@ -1483,7 +1483,7 @@
                     "align": "center",
                     "title_color": "#26263A",
                     "typography_typography": "custom",
-                    "typography_font_family": "Poppins",
+                    "typography_font_family": "Syne",
                     "typography_font_weight": "700",
                     "typography_font_size": {
                       "unit": "px",
@@ -1508,7 +1508,7 @@
               "isInner": false
             },
             {
-              "id": "3aa7c2f",
+              "id": "5810323",
               "elType": "widget",
               "settings": {
                 "space": {
@@ -1521,14 +1521,14 @@
               "widgetType": "spacer"
             },
             {
-              "id": "c7d1ce5",
+              "id": "4f4b25e",
               "elType": "section",
               "settings": {
                 "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "1b011b1",
+                  "id": "311c698",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1536,7 +1536,7 @@
                   },
                   "elements": [
                     {
-                      "id": "33a813a",
+                      "id": "4cb0860",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -1557,7 +1557,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "d03ad81",
+                      "id": "c728185",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1570,15 +1570,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "7880830",
+                      "id": "05160b9",
                       "elType": "widget",
                       "settings": {
                         "title": "Studio Notes",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1596,7 +1596,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "023f93e",
+                      "id": "6ed5858",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1609,7 +1609,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "bc77846",
+                      "id": "42bab78",
                       "elType": "widget",
                       "settings": {
                         "title": "The colours I keep coming back to",
@@ -1617,7 +1617,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1639,7 +1639,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "081c867",
+                      "id": "ca04102",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1652,14 +1652,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "c62e268",
+                      "id": "d4bb9dd",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Five pigments that show up in almost everything I make.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1676,7 +1676,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "d7d0927",
+                      "id": "cf4987a",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1689,14 +1689,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "f72ee1a",
+                      "id": "579a76a",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>11 Aug 2026 \u00b7 4 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1713,7 +1713,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "7d21539",
+                      "id": "e8cff43",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1729,7 +1729,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "9542270",
+                  "id": "b8efc40",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1737,7 +1737,7 @@
                   },
                   "elements": [
                     {
-                      "id": "9be59c6",
+                      "id": "93d9a30",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -1758,7 +1758,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "092a1d0",
+                      "id": "b971dc8",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1771,15 +1771,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "766efca",
+                      "id": "ae55dab",
                       "elType": "widget",
                       "settings": {
                         "title": "Shows",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1797,7 +1797,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "ea692a2",
+                      "id": "4721577",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1810,7 +1810,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "e16581d",
+                      "id": "6ebec17",
                       "elType": "widget",
                       "settings": {
                         "title": "Behind the scenes of &ldquo;Loud Quiet&rdquo;",
@@ -1818,7 +1818,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1840,7 +1840,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "b3873f8",
+                      "id": "2a52b2a",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1853,14 +1853,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "0cf2de7",
+                      "id": "3da1ae7",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Hanging a full room of canvases the night before opening.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1877,7 +1877,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "db90bfa",
+                      "id": "76a4d36",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1890,14 +1890,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "33cb2ec",
+                      "id": "e0a1ee2",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>02 Aug 2026 \u00b7 5 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -1914,7 +1914,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "e2e73a0",
+                      "id": "a735dba",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1930,7 +1930,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "ee4ec8f",
+                  "id": "00702eb",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1938,7 +1938,7 @@
                   },
                   "elements": [
                     {
-                      "id": "b122357",
+                      "id": "38ffa9c",
                       "elType": "widget",
                       "settings": {
                         "image": {
@@ -1959,7 +1959,7 @@
                       "widgetType": "image"
                     },
                     {
-                      "id": "f347f53",
+                      "id": "a972ac4",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -1972,15 +1972,15 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "37cdd61",
+                      "id": "662cc8b",
                       "elType": "widget",
                       "settings": {
                         "title": "Process",
                         "header_size": "h6",
                         "align": "left",
-                        "title_color": "#F5179E",
+                        "title_color": "#B3117A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -1998,7 +1998,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "8fa2cbe",
+                      "id": "92319d1",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -2011,7 +2011,7 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "3fa5c44",
+                      "id": "d7e5215",
                       "elType": "widget",
                       "settings": {
                         "title": "How a painting actually starts",
@@ -2019,7 +2019,7 @@
                         "align": "left",
                         "title_color": "#26263A",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -2041,7 +2041,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "93fd85e",
+                      "id": "dec44df",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -2054,14 +2054,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "67755d7",
+                      "id": "adb1c4c",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>From a blurry feeling to a first mark on the canvas.</p>",
                         "align": "left",
                         "text_color": "#6E6E80",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -2078,7 +2078,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "1e78f3d",
+                      "id": "bcdeec6",
                       "elType": "widget",
                       "settings": {
                         "space": {
@@ -2091,14 +2091,14 @@
                       "widgetType": "spacer"
                     },
                     {
-                      "id": "fa528d5",
+                      "id": "a34f2b0",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>24 Jul 2026 \u00b7 6 min</p>",
                         "align": "left",
-                        "text_color": "#9A9AAB",
+                        "text_color": "#5E5E6E",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Manrope",
                         "typography_font_weight": "400",
                         "typography_font_size": {
                           "unit": "px",
@@ -2115,7 +2115,7 @@
                       "widgetType": "text-editor"
                     },
                     {
-                      "id": "0f4d654",
+                      "id": "5e2d045",
                       "elType": "widget",
                       "settings": {
                         "space": {

@@ -35,17 +35,29 @@ pre-set. Then jump to **§4** to finish wiring things up.
 | Role        | Hex                  | Global slot |
 |-------------|----------------------|-------------|
 | Purple      | `#9C1AE6`            | Primary     |
-| Magenta     | `#F5179E`            | Secondary   |
+| Magenta (text/buttons) | `#B3117A`  | Secondary   |
+| Magenta pop (logo/decoration) | `#F5179E` | Custom |
 | Heading     | `#26263A`            | Text        |
 | Cyan        | `#12D8E8`            | Accent      |
-| Gradient    | `#7B2FF7 → #F0139C` (135°) | Custom: Gradient Start / End |
+| Gradient    | `#7B2FF7 → #D6148C` (135°) | Custom: Gradient Start / End |
 | Yellow      | `#F6E400`            | Custom      |
 | White / Light | `#FFFFFF` / `#F7F7FB` | backgrounds |
-| Body text   | `#6E6E80`            | —           |
+| Body text / meta | `#6E6E80` / `#5E5E6E` | —      |
+
+> **Accessibility:** the palette was audited with the `ui-ux-pro-max` skill and
+> tuned to pass **WCAG AA** (contrast ≥ 4.5:1). The bright magenta `#F5179E`
+> failed as small text, so text/buttons use the deeper `#B3117A` (6.4:1) and the
+> gradient end was nudged to `#D6148C` so white text on it passes — the bright
+> magenta is kept for the logo and decorative accents, where it's large enough
+> to be compliant.
 
 ### Fonts (free Google Fonts, built into Elementor)
 
-- **Headings:** Poppins 700 / 800  ·  **Body:** Poppins 400 / 500
+- **Headings:** Syne 700 / 800  ·  **Body:** Manrope 400 / 500
+
+  This "Fashion Forward" pairing is the `ui-ux-pro-max` recommendation for art
+  galleries / creative studios. Prefer the original WHOOP look? Set both fonts
+  back to **Poppins** at the top of `build_kit.py` and re-run.
 
 ---
 
@@ -54,8 +66,8 @@ pre-set. Then jump to **§4** to finish wiring things up.
 ### a) Global colours & fonts
 
 **Elementor → Site Settings → Global Colors / Global Fonts** and enter the
-values from §2 (Primary `#9C1AE6`, Secondary `#F5179E`, Text `#26263A`, Accent
-`#12D8E8`; all fonts **Poppins**). **Update**.
+values from §2 (Primary `#9C1AE6`, Secondary `#B3117A`, Text `#26263A`, Accent
+`#12D8E8`; headings **Syne**, body **Manrope**). **Update**.
 
 ### b) Pages
 

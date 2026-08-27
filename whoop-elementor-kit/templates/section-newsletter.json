@@ -1,12 +1,12 @@
 {
   "content": [
     {
-      "id": "9bd645c",
+      "id": "7cf3f4b",
       "elType": "section",
       "settings": {
         "background_background": "gradient",
         "background_color": "#7B2FF7",
-        "background_color_b": "#F0139C",
+        "background_color_b": "#D6148C",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
@@ -40,7 +40,7 @@
       },
       "elements": [
         {
-          "id": "ea30319",
+          "id": "9bdc669",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -48,14 +48,14 @@
           },
           "elements": [
             {
-              "id": "9e42048",
+              "id": "21c5125",
               "elType": "section",
               "settings": {
                 "gap": "wider"
               },
               "elements": [
                 {
-                  "id": "ed897f4",
+                  "id": "07eb0d1",
                   "elType": "column",
                   "settings": {
                     "_column_size": 55,
@@ -63,7 +63,7 @@
                   },
                   "elements": [
                     {
-                      "id": "882ab9b",
+                      "id": "0b16b39",
                       "elType": "widget",
                       "settings": {
                         "title": "Get new drops &amp; show news in your inbox.",
@@ -71,7 +71,7 @@
                         "align": "left",
                         "title_color": "#FFFFFF",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "700",
                         "typography_font_size": {
                           "unit": "px",
@@ -96,7 +96,7 @@
                   "isInner": false
                 },
                 {
-                  "id": "2602a79",
+                  "id": "796c698",
                   "elType": "column",
                   "settings": {
                     "_column_size": 45,
@@ -104,7 +104,7 @@
                   },
                   "elements": [
                     {
-                      "id": "bbe968a",
+                      "id": "0ecec7f",
                       "elType": "widget",
                       "settings": {
                         "text": "Subscribe",
@@ -132,7 +132,7 @@
                         },
                         "button_text_color": "#FFFFFF",
                         "typography_typography": "custom",
-                        "typography_font_family": "Poppins",
+                        "typography_font_family": "Syne",
                         "typography_font_weight": "600",
                         "typography_font_size": {
                           "unit": "px",
