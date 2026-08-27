@@ -1,30 +1,23 @@
 {
   "content": [
     {
-      "id": "32ae68a",
+      "id": "380933f",
       "elType": "section",
       "settings": {
-        "background_background": "gradient",
-        "background_color": "#7B2FF7",
-        "background_color_b": "#D6148C",
-        "background_gradient_type": "linear",
-        "background_gradient_angle": {
-          "unit": "deg",
-          "size": 135,
-          "sizes": []
-        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
         "padding": {
           "unit": "px",
-          "top": "100",
+          "top": "80",
           "right": "0",
-          "bottom": "100",
+          "bottom": "10",
           "left": "0",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "ab81d56",
+          "id": "f29d672",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -32,25 +25,25 @@
           },
           "elements": [
             {
-              "id": "d6e75e0",
+              "id": "6e3d497",
               "elType": "widget",
               "settings": {
-                "title": "Contact",
+                "title": "Say Hello",
                 "header_size": "h6",
                 "align": "center",
-                "title_color": "rgba(255,255,255,0.85)",
+                "title_color": "#8A8A8A",
                 "typography_typography": "custom",
-                "typography_font_family": "Syne",
-                "typography_font_weight": "700",
+                "typography_font_family": "Courier Prime",
+                "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 13,
+                  "size": 12,
                   "sizes": []
                 },
                 "typography_text_transform": "uppercase",
                 "typography_letter_spacing": {
                   "unit": "px",
-                  "size": 2,
+                  "size": 4,
                   "sizes": []
                 }
               },
@@ -58,12 +51,12 @@
               "widgetType": "heading"
             },
             {
-              "id": "5e5e89e",
+              "id": "a44d121",
               "elType": "widget",
               "settings": {
                 "space": {
                   "unit": "px",
-                  "size": 14,
+                  "size": 20,
                   "sizes": []
                 }
               },
@@ -71,47 +64,106 @@
               "widgetType": "spacer"
             },
             {
-              "id": "3382bc5",
+              "id": "8f0122d",
               "elType": "widget",
               "settings": {
-                "title": "Say Hello",
+                "title": "Contact",
                 "header_size": "h1",
                 "align": "center",
-                "title_color": "#FFFFFF",
+                "title_color": "#2B2B2B",
                 "typography_typography": "custom",
-                "typography_font_family": "Syne",
-                "typography_font_weight": "800",
+                "typography_font_family": "Special Elite",
+                "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 64,
+                  "size": 54,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.05,
+                  "size": 1.1,
                   "sizes": []
                 },
                 "typography_letter_spacing": {
                   "unit": "px",
-                  "size": -1.5,
+                  "size": 1,
                   "sizes": []
                 },
                 "typography_font_size_mobile": {
                   "unit": "px",
-                  "size": 42,
+                  "size": 40,
                   "sizes": []
                 }
               },
               "elements": [],
               "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "8e18bb1",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "20",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 720,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "c001b3a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f91c762",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Commissions, prints, press &amp; studio visits.</p>",
+                "align": "center",
+                "text_color": "#4A4A4A",
+                "typography_typography": "custom",
+                "typography_font_family": "Courier Prime",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
             },
             {
-              "id": "2ba068a",
+              "id": "8952061",
               "elType": "widget",
               "settings": {
                 "space": {
                   "unit": "px",
-                  "size": 14,
+                  "size": 8,
                   "sizes": []
                 }
               },
@@ -119,18 +171,18 @@
               "widgetType": "spacer"
             },
             {
-              "id": "702af43",
+              "id": "8ef3120",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Commissions, prints, press and studio visits.</p>",
+                "editor": "<p><strong style=\"color:#2B2B2B\">hello@whatshername.uk</strong>&nbsp;&nbsp;\u00b7&nbsp;&nbsp;Unit 4, Bright Lane, London&nbsp;&nbsp;\u00b7&nbsp;&nbsp;@whatshername.uk</p>",
                 "align": "center",
-                "text_color": "rgba(255,255,255,0.9)",
+                "text_color": "#8A8A8A",
                 "typography_typography": "custom",
-                "typography_font_family": "Manrope",
+                "typography_font_family": "Courier Prime",
                 "typography_font_weight": "400",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 19,
+                  "size": 14,
                   "sizes": []
                 },
                 "typography_line_height": {
@@ -149,356 +201,62 @@
       "isInner": false
     },
     {
-      "id": "1726ab9",
+      "id": "65521b2",
       "elType": "section",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#FFFFFF",
         "padding": {
           "unit": "px",
-          "top": "100",
+          "top": "30",
           "right": "0",
-          "bottom": "90",
+          "bottom": "30",
           "left": "0",
           "isLinked": false
         },
-        "gap": "wider"
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#E6E6E6",
+        "content_width": {
+          "unit": "px",
+          "size": 520,
+          "sizes": []
+        }
       },
       "elements": [
         {
-          "id": "430cb57",
+          "id": "293b609",
           "elType": "column",
           "settings": {
-            "_column_size": 45,
+            "_column_size": 100,
             "_inline_size": null
           },
           "elements": [
             {
-              "id": "acbe57f",
+              "id": "bb62ab3",
               "elType": "widget",
               "settings": {
-                "title": "Say Hello",
-                "header_size": "h6",
-                "align": "left",
-                "title_color": "#B3117A",
-                "typography_typography": "custom",
-                "typography_font_family": "Syne",
-                "typography_font_weight": "700",
-                "typography_font_size": {
+                "selected_icon": {
+                  "value": "fas fa-bars",
+                  "library": "fa-solid"
+                },
+                "view": "stacked",
+                "shape": "circle",
+                "primary_color": "#E0574F",
+                "size": {
                   "unit": "px",
-                  "size": 13,
+                  "size": 15,
                   "sizes": []
                 },
-                "typography_text_transform": "uppercase",
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": 2,
-                  "sizes": []
-                }
+                "align": "center"
               },
               "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "371f3a1",
-              "elType": "widget",
-              "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 12,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "2c7733e",
-              "elType": "widget",
-              "settings": {
-                "title": "Let's make something together.",
-                "header_size": "h2",
-                "align": "left",
-                "title_color": "#26263A",
-                "typography_typography": "custom",
-                "typography_font_family": "Syne",
-                "typography_font_weight": "800",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 38,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.2,
-                  "sizes": []
-                },
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": -0.5,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "e44bd12",
-              "elType": "widget",
-              "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "d09f265",
-              "elType": "widget",
-              "settings": {
-                "editor": "<p>Commissions, print enquiries, press or studio visits \u2014 drop a note and I'll get back to you within a few days.</p>",
-                "align": "left",
-                "text_color": "#6E6E80",
-                "typography_typography": "custom",
-                "typography_font_family": "Manrope",
-                "typography_font_weight": "400",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "text-editor"
-            },
-            {
-              "id": "3d6563a",
-              "elType": "widget",
-              "settings": {
-                "space": {
-                  "unit": "px",
-                  "size": 22,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "spacer"
-            },
-            {
-              "id": "c517e81",
-              "elType": "widget",
-              "settings": {
-                "editor": "<p><strong style=\"color:#26263A\">Email</strong><br>hello@whatshername.uk</p>",
-                "align": "left",
-                "text_color": "#6E6E80",
-                "typography_typography": "custom",
-                "typography_font_family": "Manrope",
-                "typography_font_weight": "400",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.9,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "text-editor"
-            },
-            {
-              "id": "3153f1d",
-              "elType": "widget",
-              "settings": {
-                "editor": "<p><strong style=\"color:#26263A\">Studio</strong><br>Unit 4, Bright Lane, London</p>",
-                "align": "left",
-                "text_color": "#6E6E80",
-                "typography_typography": "custom",
-                "typography_font_family": "Manrope",
-                "typography_font_weight": "400",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.9,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "text-editor"
-            },
-            {
-              "id": "de609f9",
-              "elType": "widget",
-              "settings": {
-                "editor": "<p><strong style=\"color:#26263A\">Instagram</strong><br>@whatshername.uk</p>",
-                "align": "left",
-                "text_color": "#6E6E80",
-                "typography_typography": "custom",
-                "typography_font_family": "Manrope",
-                "typography_font_weight": "400",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.9,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "text-editor"
-            }
-          ],
-          "isInner": false
-        },
-        {
-          "id": "16b6c83",
-          "elType": "column",
-          "settings": {
-            "_column_size": 55,
-            "_inline_size": null
-          },
-          "elements": [
-            {
-              "id": "136bbd5",
-              "elType": "section",
-              "settings": {
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "18",
-                  "bottom": "18",
-                  "left": "18",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "36",
-                  "right": "36",
-                  "bottom": "36",
-                  "left": "36",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 18,
-                  "blur": 50,
-                  "spread": 0,
-                  "color": "rgba(38,38,58,0.08)"
-                },
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#ECECF3"
-              },
-              "elements": [
-                {
-                  "id": "bd08e24",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 100,
-                    "_inline_size": null,
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "1d6ad7d",
-                      "elType": "widget",
-                      "settings": {
-                        "form_name": "Contact",
-                        "form_fields": [
-                          {
-                            "_id": "name",
-                            "field_type": "text",
-                            "field_label": "Name",
-                            "placeholder": "Your name",
-                            "required": "true",
-                            "width": "100"
-                          },
-                          {
-                            "_id": "email",
-                            "field_type": "email",
-                            "field_label": "Email",
-                            "placeholder": "you@email.com",
-                            "required": "true",
-                            "width": "100"
-                          },
-                          {
-                            "_id": "subject",
-                            "field_type": "text",
-                            "field_label": "Subject",
-                            "placeholder": "Commission / Print / Press",
-                            "width": "100"
-                          },
-                          {
-                            "_id": "message",
-                            "field_type": "textarea",
-                            "field_label": "Message",
-                            "placeholder": "Tell me a little about what you have in mind",
-                            "required": "true",
-                            "width": "100",
-                            "rows": 5
-                          }
-                        ],
-                        "button_text": "Send Message",
-                        "button_size": "md",
-                        "button_width": "100",
-                        "button_background_color": "#B3117A",
-                        "label_typography_typography": "custom",
-                        "label_typography_font_family": "Syne",
-                        "label_typography_font_weight": "600",
-                        "button_typography_typography": "custom",
-                        "button_typography_font_family": "Syne",
-                        "button_typography_font_weight": "600",
-                        "button_border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": [],
-                      "widgetType": "form"
-                    }
-                  ],
-                  "isInner": false
-                }
-              ],
-              "isInner": true
+              "widgetType": "icon"
             }
           ],
           "isInner": false
@@ -507,21 +265,28 @@
       "isInner": false
     },
     {
-      "id": "e09bef5",
+      "id": "e9d3c30",
       "elType": "section",
       "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
         "padding": {
           "unit": "px",
-          "top": "0",
+          "top": "30",
           "right": "0",
-          "bottom": "0",
+          "bottom": "90",
           "left": "0",
-          "isLinked": true
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 560,
+          "sizes": []
         }
       },
       "elements": [
         {
-          "id": "642fbca",
+          "id": "776c21c",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -529,29 +294,74 @@
           },
           "elements": [
             {
-              "id": "819698d",
+              "id": "fcd014f",
               "elType": "widget",
               "settings": {
-                "address": "London, UK",
-                "zoom": {
+                "form_name": "Contact",
+                "form_fields": [
+                  {
+                    "_id": "name",
+                    "field_type": "text",
+                    "field_label": "Name",
+                    "placeholder": "Your name",
+                    "required": "true",
+                    "width": "100"
+                  },
+                  {
+                    "_id": "email",
+                    "field_type": "email",
+                    "field_label": "Email",
+                    "placeholder": "you@email.com",
+                    "required": "true",
+                    "width": "100"
+                  },
+                  {
+                    "_id": "message",
+                    "field_type": "textarea",
+                    "field_label": "Message",
+                    "placeholder": "Tell me what you have in mind",
+                    "required": "true",
+                    "width": "100",
+                    "rows": 4
+                  }
+                ],
+                "button_text": "Send Message",
+                "button_size": "sm",
+                "button_background_color": "#2B2B2B",
+                "border_width": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "1",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "border_color": "#2B2B2B",
+                "field_background_color": "rgba(0,0,0,0)",
+                "label_typography_typography": "custom",
+                "label_typography_font_family": "Courier Prime",
+                "label_typography_text_transform": "uppercase",
+                "label_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "label_typography_font_size": {
                   "unit": "px",
                   "size": 12,
                   "sizes": []
                 },
-                "height": {
+                "button_typography_typography": "custom",
+                "button_typography_font_family": "Courier Prime",
+                "button_typography_text_transform": "uppercase",
+                "button_typography_letter_spacing": {
                   "unit": "px",
-                  "size": 420,
-                  "sizes": []
-                },
-                "css_filters_css_filter": "custom",
-                "css_filters_saturate": {
-                  "unit": "px",
-                  "size": 0,
+                  "size": 2,
                   "sizes": []
                 }
               },
               "elements": [],
-              "widgetType": "google_maps"
+              "widgetType": "form"
             }
           ],
           "isInner": false
